@@ -303,23 +303,85 @@ Coming soon...
 
 ::: {.column width=50%}
 
-- Temporal information (e.g. longitudinal data / time series (LTS))
-- Spatial information (spatial data (GIS, occurrences, remote sensing, etc.)
-- Textual data (csv, DNA, etc.)
-- Taxonomic data
-- Trait data
-- ...
+![](images/image_DataMetadata.png){width=80%}
+
 :::
 
 ::: {.column .center width=50%}
-![](images/image_DataMetadata.png){width=80%}
+
+<br><br><br><br><br>
+{{< fa circle-right>}} &nbsp; **Link this information with your biodiversity research projects**
+
+Imagine : you're wondering about the distribution of a given species. 
+
 :::
 ::::
 
 
+<!-- page 13 bis -->
+
+## Characterizing data
+
 <br/>
 
-{{< fa circle-right>}} &nbsp; **Link this information with your biodiversity research projects**
+:::: {.columns}
+
+::: {.column width=50%}
+
+![](images/image_DataMetadata.png){width=80%}
+
+:::
+
+::: {.column width=50%}
+
+- **what ** species ? --> observation data: presence/absence, abundance, density, biomass ? 
+
+> but also: what are the intra-population variations ? DNA, trait measurements ? phylogeny ?
+
+- **where** are they spatially ? in which proportions ?
+
+- **when** were they observed or sampled ? repeated measures ? time stamp or global period ?
+
+- **how** were they collected ? biases ? pseudoreplication ?  true absences ?
+
+- **why** and **who** : citizen science ? opportunistic ? funding ? 
+
+:::
+::::
+
+<!-- page 14 -->
+
+## Classifying data by...
+
+<br/>
+
+:::: {.columns}
+
+::: {.column width=33%}
+
+**Format**[^8]
+
+- Data Table
+- Spatial raster
+- Spatial vector
+- Databases
+- Other entities
+:::
+
+::: {.column width=33%}
+
+
+:::
+
+::: {.column width=33%}
+
+
+:::
+
+::::
+
+
+[^8]: According to the [Ecological Metadata Language (EML)](https://eml.ecoinformatics.org/eml-schema) classification
 
 <!-- page 14 -->
 
@@ -353,7 +415,46 @@ Coming soon...
 
 ::: {.column width=33%}
 
-**Others classifications**
+
+:::
+
+::::
+
+
+[^8]: According to the [Ecological Metadata Language (EML)](https://eml.ecoinformatics.org/eml-schema) classification
+
+<!-- page 14 -->
+## Classifying data by...
+
+<br/>
+
+:::: {.columns}
+
+::: {.column width=33%}
+
+**Format**[^8]
+
+- Data Table
+- Spatial raster
+- Spatial vector
+- Databases
+- Other entities
+:::
+
+::: {.column width=33%}
+
+**Type**
+
+- Citizen science
+- Sensors
+- DNA-based techniques
+- Satellite remote sensing
+- Others (simulated data)
+:::
+
+::: {.column width=33%}
+
+**Other classifications**
 
 - Temporal information (e.g. longitudinal data / time series (LTS))
 - Spatial information (spatial data (GIS, occurrences, remote sensing, etc.)
@@ -435,11 +536,24 @@ According to [Kissling WD _et al._ (2018)](https://doi.org/10.1111/brv.12359)
 
 <!-- page 17 -->
 
-## Data categories: *others classifications*
+## Data categories: *other classifications*
 
-- Longitudinal data / time series (LTS)
-- Spatial data (GIS, occurrences, remote sensing, etc.)
-- Textual data (csv, DNA, etc.)
+- **Longitudinal data**
+
+Repeated measures, such as long term surveys, allowing to look at evolution (of abundances, biomass, etc) over time.
+
+> Time series analyses
+
+
+- **Spatial data**
+
+Generic term that starts whenever there are spatial coordinates (long/lat) associated with an observation. May also refer to remote sensing images, GIS.
+
+<br>
+
+- **Textual data**
+
+Again a very generic term, ranges from spreadsheets of data occurrences to DNA sequences, and text mining (systematic reviews, web scrapping, etc).
 
 
 
