@@ -582,7 +582,8 @@ Under the supervision of the CNRS Institute of Ecology and Environment and the N
 
 ::: {.column width=50%}
 
-![](images/image-DIKW_Pyramid.svg){width=100%}
+![](images/image-DIKW_Pyramid.svg){width=70%}
+![](images/image_DataInformationknowledgeHumanities.jpg){width=80%}
 
 :::
 
@@ -593,6 +594,8 @@ Under the supervision of the CNRS Institute of Ecology and Environment and the N
 :::
 
 ::::
+
+
 
 :::
 
