@@ -576,5 +576,23 @@ Under the supervision of the CNRS Institute of Ecology and Environment and the N
 :::
 
 <!-- page 22 -->
+## Data & Metadata : *definition*
 
+:::: {.columns}
+
+::: {.column width=50%}
+
+![](images/image-DIKW_Pyramid.svg){width=100%}
+
+:::
+
+::: {.column .center width=50%}
+
+![](images/image_DataMetadata.png){width=100%}
+
+:::
+
+::::
+
+:::
 
