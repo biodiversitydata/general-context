@@ -80,7 +80,8 @@
 :::
 
 ::: {.column .center width=70%}
-![](images/image-PaysageBD_Roche2023-2.png){width=100%}
+![](images/image-paysage-prospectivecnrs.png){width=100%}
+Figure from [CNRS prospective](https://www.inee.cnrs.fr/fr/prospectives-cnrs-ecologie-environnement-2023)
 :::
 
 ::::
@@ -246,28 +247,6 @@ Coming soon...
 
 <!-- page 11 -->
 
-
-## Definitions
-
-<br/>
-
-:::: {.columns}
-
-::: {.column width=50%}
-
-![](images/image-data.jpg){width=100%}
-
-:::
-
-::: {.column .center width=50%}
-
-![](images/image_DataMetadata.png){width=100%}
-
-:::
-
-::::
-
-
 # Data classification(s)
 
 
@@ -404,7 +383,7 @@ Imagine : you're wondering about the distribution of a given species.
 
 ::: {.column width=33%}
 
-**Type**
+**Protocols and methods**[^9]
 
 - Citizen science
 - Sensors
@@ -422,6 +401,7 @@ Imagine : you're wondering about the distribution of a given species.
 
 
 [^8]: According to the [Ecological Metadata Language (EML)](https://eml.ecoinformatics.org/eml-schema) classification
+[^9]: According to [Kissling *et al.* (2018)](https://doi.org/10.1111/brv.12359)
 
 <!-- page 14 -->
 ## Classifying data by...
@@ -443,7 +423,7 @@ Imagine : you're wondering about the distribution of a given species.
 
 ::: {.column width=33%}
 
-**Type**
+**Protocols and methods**[^9]
 
 - Citizen science
 - Sensors
@@ -454,11 +434,11 @@ Imagine : you're wondering about the distribution of a given species.
 
 ::: {.column width=33%}
 
-**Other classifications**
+**Thematic and/or "other classifications"**
 
 - Temporal information (e.g. longitudinal data / time series (LTS))
 - Spatial information (spatial data (GIS, occurrences, remote sensing, etc.)
-- Textual data (csv, DNA, …)
+- Textual data (csv, …)
 - Taxonomic
 - Trait data
 - Non-exhaustive
@@ -468,6 +448,7 @@ Imagine : you're wondering about the distribution of a given species.
 
 
 [^8]: According to the [Ecological Metadata Language (EML)](https://eml.ecoinformatics.org/eml-schema) classification
+[^9]: According to [Kissling *et al.* (2018)](https://doi.org/10.1111/brv.12359)
 
 
 
@@ -479,7 +460,7 @@ Imagine : you're wondering about the distribution of a given species.
 
 ::: {.column width=50%}
 
-According to the EML classification[^9]
+According to the EML classification[^10]
 
 - Data Table
 - Spatial raster
@@ -505,7 +486,7 @@ According to the EML classification[^9]
 :::
 
 ::::
-[^9]: [Matthew B _et al._ (2019)](https://eml.ecoinformatics.org/eml-schema)
+[^10]: [Matthew B _et al._ (2019)](https://eml.ecoinformatics.org/eml-schema)
 
 
 <!-- page 16 -->
@@ -536,7 +517,7 @@ According to [Kissling WD _et al._ (2018)](https://doi.org/10.1111/brv.12359)
 
 <!-- page 17 -->
 
-## Data categories: *other classifications*
+## Data categories: *thematic and/or "other classifications"*
 
 - **Longitudinal data**
 
@@ -636,7 +617,7 @@ The data lifecycle is the set of stages of management, conservation and dissemin
 
 <br/><br/>
 
-A set of guiding principles for managing research data to make it **F**indable, **A**ccessible, **I**nteroperable, and **R**eusable by humans and machines[^10].
+A set of guiding principles for managing research data to make it **F**indable, **A**ccessible, **I**nteroperable, and **R**eusable by humans and machines[^11].
 
 
 **This is the way!**
@@ -646,7 +627,7 @@ A set of guiding principles for managing research data to make it **F**indable, 
 
 ![](images/image-GOFAIR.png){width=30%}
 
-{{< fa circle-right >}} &nbsp;For more information: [PNDB](https://www.pndb.fr/fr/outils-services/outils-services-par-etapes/preservation#Standardisation%20des%20{m%C3%A9ta}donn%C3%A9es)
+{{< fa circle-right >}} &nbsp;For more information: [PNDB](https://www.pndb.fr/fr/ressources/principes-fair-et-cycle-de-vie-des-donnees)
 :::
 
 ::: {.column .right width=40%}
@@ -658,7 +639,7 @@ A set of guiding principles for managing research data to make it **F**indable, 
 
 
 
-[^10]: [Wilkinson M. D. et al., 2017](https://doi.org/10.1038/sdata.2016.18)
+[^11]: [Wilkinson M. D. et al., 2017](https://doi.org/10.1038/sdata.2016.18)
 
 
 <!-- page 21 -->
@@ -683,15 +664,6 @@ A set of guiding principles for managing research data to make it **F**indable, 
 <!-- page 21 -->
 ## Flux and stocks
 
-:::: {.columns}
-
-::: {.column width=70%}
-
-Sharing data from research activities requires making them available in repositories.
-
-It is recommended to prioritize deposits in trusted thematic repositories, or failing that, in generic repositories such as [Recherche Data Gouv](https://recherche.data.gouv.fr/en).
-
-<br/>
 
 **Focus: the InDoRES repository**
 
@@ -708,39 +680,140 @@ Under the supervision of the CNRS Institute of Ecology and Environment and the N
 
 ![](images/image-selection-entrepot.jpg){width=80%}
 <br/>
-[Ouvrir la science (2024)](https://www.ouvrirlascience.fr/selectionner-un-entrepot-thematique-de-confiance-pour-le-depot-de-donnees-methodologie-et-analyse-de-loffre-existante/)
+[Ouvrir la science (2024)](https://www.ouvrirlascience.fr/selectionner-un-entrepot-thematique-de-confiance-pour-le-depot-de-donnees-methodologie-et-analyse-de-loffre-existante/)[^12]
 :::
 
 ::::
 
 :::
 
-<!-- page 22 -->
-## Data & Metadata : *definition*
+<!-- page 21 bis -->
+## Flux and stocks
+
+**Sharing data and metadata from research activities requires making them available in repositories.**
+
+It is recommended to prioritize deposits in **trusted thematic repositories** (eg. InDoRES, SEANOE, ...), or failing that in **institutional repositories** (eg. Data SUD, CIRAD Dataverse, ...), or failing that, in **generic repositories** such as [the Recherche Data Gouv repository](https://recherche.data.gouv.fr/fr/page/entrepot-recherche-data-gouv).
 
 :::: {.columns}
 
-::: {.column width=50%}
+::: {.column width=30%}
 
-![](images/image-DIKW_Pyramid.svg){width=70%}
-![](images/image_DataInformationknowledgeHumanities.jpg){width=80%}
+![](images/image-selection-entrepot.jpg){width=80%}
+<br/>
+[Ouvrir la science (2024)](https://www.ouvrirlascience.fr/selectionner-un-entrepot-thematique-de-confiance-pour-le-depot-de-donnees-methodologie-et-analyse-de-loffre-existante/) [^12]
+:::
+
+::: {.column width=70%}
+
+**Examples of trusted thematic repositories**
+
+| Repositories names    |  Supporting institutions   | thematic and/or institutional and/or Generic | disciplinary fields    | Accepted data: keywords that speak to the community    | Volume limit    |
+|:------------|:-----------:|------------:|------------:|------------:|------------:|
+| data.InDoRES | CNRS-Ecology, MNHN | Thematic, institutional | Ecology, Environment, Bio-archaeology | Row 1 Col 5 | Row 1 Col 6 |
+| EaSy Data | Data Terra, BRGM | Thematic, institutional | Earth and Environmental Sciences | Row 2 Col 5 | Row 2 Col 6 |
+| Data Sud | Row 3 Col 2 | Row 3 Col 3 | Row 3 Col 4 | Row 3 Col 5 | Row 3 Col 6 |
+| SEANOE | Row 4 Col 2 | Row 4 Col 3 | Row 4 Col 4 | Row 4 Col 5 | Row 4 Col 6 |
+| GBIF | Row 4 Col 2 | Row 4 Col 3 | Row 4 Col 4 | Row 4 Col 5 | Row 4 Col 6 |
+
+: Table 1: Table caption
+:::
+
+::::
+
+[^12] : This note - produced by the Research Data College - proposes a method for identifying thematic repositories based on the exclusion and description criteria of the repositories. This is accompanied by an initial list resulting from the grid of analysis criteria selected.
+
+<!-- page 22 -->
+## General context : *take home message*
+
+:::: {.columns}
+
+::: {.column width=33%}
+
+![](images/image-DIKW_Pyramid.svg){width=100%}
+![](images/image_DataInformationknowledgeHumanities.jpg){width=100%}
 
 :::
 
-::: {.column .center width=50%}
+::: {.column .center width=33%}
+![](images/image_DataMetadata.png){width=120%}
+:::
 
-![](images/image_DataMetadata.png){width=100%}
+::: {.column .center width=33%}
+
+![](images/image-FAIR.png){width=100%}
+![](images/image-datalifecycle.png){width=100%}
 
 :::
 
 ::::
 
 
+<!-- page 23 -->
+
+# General context : resources
+
+<!-- page 24 -->
+
+## General context : resources
+
+:::: {.columns}
+
+::: {.column width=25%}
+
+**FRB Cesab**
+
+- [Publication](https://www.fondationbiodiversite.fr/en/cesab-scientific-publications/)
+
+- [Tools and databases](https://frbcesab.github.io)
+
+- [packages repository](https://frbcesab.r-universe.dev)
+
+- [training courses](https://frbcesab.github.io/content/courses.html)
+
+- [Blog](https://frbcesab.github.io/tips-and-tricks)
+
+![](images/logo-affiliation.png){width=100%}
+  
 :::
 
-<!-- page 23 -->
-## Data & Metadata : *definition*
+::: {.column width=25%}
 
-**coming soon**
+**PNDB - Data Terra**
 
-ddddd
+- [PNDB Tools and services](https://www.pndb.fr/fr/outils-services/presentation-outils-services) 
+
+- [Ecoinformatic ressources](https://www.pndb.fr/fr/ressources/ressources-en-ecoinformatique)
+
+- [écoinfoFAIR](https://www.pndb.fr/fr/activites/animations/ecoinfofair)
+
+- [Bibliographic resources](https://www.pndb.fr/fr/ressources/ressources-bibliographiques)
+
+- [Data Terra Tools and services](https://www.data-terra.org/donnees-services/acces-rapide/)
+
+![](images/image-logo-pndb.jpg){width=50%}
+![](images/image-logo-dataterra.png){width=50%}
+:::
+
+::: {.column width=25%}
+**GBIF**
+
+- [Data](https://www.gbif.org/occurrence/search)
+
+- [resources](https://www.gbif.org/resource/search)
+
+- [trainings](https://www.gbif.org/training)
+
+![](images/image-logo-gbif-france.png){width=60%}
+
+![](images/image-logo-gbif.png){width=100%}
+:::
+::: {.column width=25%}
+**Recherche Data Gouv**
+
+- [web page](https://recherche.data.gouv.fr/fr)
+
+- [trainings](https://recherche.data.gouv.fr/fr/page/classes-virtuelles)
+
+![](images/image-logo-rdg.png){width=100%}
+:::
+::::
