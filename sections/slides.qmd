@@ -116,7 +116,7 @@ The targets of this note are above all researchers, managers, engineers and data
 <br/>
 
 - Version 1 is available [here](https://mnhn.hal.science/mnhn-04296424/)
-- Version 2 will be available soon (December 2024 or January 2025)
+- Version 2 will be available soon in January 2025
 <br>
 
 
@@ -851,11 +851,15 @@ It is recommended to prioritize deposits in **trusted thematic repositories** (e
 <!-- page 23 -->
 ## General context : *take home message*
 
+- **Heterogeneity** (data types, origin, standards) & **diversity** of "objects" to be linked together[^2]
+- **Loss of information** over time[^3]
+- Toward a better **open science** and **reproducibility** [^4] [^5]
+
 :::: {.columns}
 
 ::: {.column width=33%}
 
-![](images/image-DIKW_Pyramid.svg){width=100%}
+![](images/image-DIKW_Pyramid.svg){width=70%}
 ![](images/image_DataInformationknowledgeHumanities.jpg){width=100%}
 
 :::
@@ -872,6 +876,11 @@ It is recommended to prioritize deposits in **trusted thematic repositories** (e
 :::
 
 ::::
+
+[^2]: [Page (2016)](https://riojournal.com/article/8767)
+[^3]: [Michener _et al._ (1997)](https://doi.org/10.1890/1051-0761(1997)007[0330:NMFTES]2.0.CO;2)
+[^4]: [Powers & Hampton (2018)](https://doi.org/10.1002/eap.1822)
+[^5]: [Genkins _et al._ (2016)](https://doi.org/10.1002/ece3.9961)
 
 
 <!-- page 24 -->
