@@ -323,28 +323,13 @@ Website available at: <https://rdatatoolbox.github.io/>
 
 
 
-# Data vs. metadata
+# Data vs. metadata 
 
 <!-- page 9 -->
 
-## Data vs. metadata
+# Post-it exercise
 
 **What kind of data and/or metadata are you using for your research?**
-
-<br>
-
-:::: {.columns}
-
-::: {.column width=50%}
-**DATA**
-:::
-
-::: {.column width=50%}
-**METADATA**
-
-:::
-
-::::
 
 
 <!-- page 10 -->
@@ -397,27 +382,6 @@ Website available at: <https://rdatatoolbox.github.io/>
 
 <!-- page 12 -->
 
-## Data classification(s)
-
-**What kind of data and/or metadata are you using for your research?**
-
-<br/>
-
-:::: {.columns}
-
-::: {.column width=50%}
-**DATA**
-:::
-
-::: {.column width=50%}
-**METADATA**
-:::
-
-::::
-
-
-<!-- page 13 -->
-
 ## Characterizing data
 
 <br/>
@@ -441,7 +405,7 @@ Imagine : you're wondering about the distribution of a given species.
 ::::
 
 
-<!-- page 13 bis -->
+<!-- page 14 -->
 
 ## Characterizing data
 
@@ -471,128 +435,6 @@ Imagine : you're wondering about the distribution of a given species.
 
 :::
 ::::
-
-<!-- page 14 -->
-
-## Classifying data by...
-
-<br/>
-
-:::: {.columns}
-
-::: {.column width=33%}
-
-**Format**[^8]
-
-- Data Table
-- Spatial raster
-- Spatial vector
-- Databases
-- Other entities
-:::
-
-::: {.column width=33%}
-
-
-:::
-
-::: {.column width=33%}
-
-
-:::
-
-::::
-
-
-[^8]: According to the [Ecological Metadata Language (EML)](https://eml.ecoinformatics.org/eml-schema) classification
-
-<!-- page 14 -->
-
-## Classifying data by...
-
-<br/>
-
-:::: {.columns}
-
-::: {.column width=33%}
-
-**Format**[^8]
-
-- Data Table
-- Spatial raster
-- Spatial vector
-- Databases
-- Other entities
-:::
-
-::: {.column width=33%}
-
-**Protocols and methods**[^9]
-
-- Citizen science
-- Sensors
-- DNA-based techniques
-- Satellite remote sensing
-- Others (simulated data)
-:::
-
-::: {.column width=33%}
-
-
-:::
-
-::::
-
-
-[^8]: According to the [Ecological Metadata Language (EML)](https://eml.ecoinformatics.org/eml-schema) classification
-[^9]: According to [Kissling *et al.* (2018)](https://doi.org/10.1111/brv.12359)
-
-<!-- page 14 -->
-## Classifying data by...
-
-<br/>
-
-:::: {.columns}
-
-::: {.column width=33%}
-
-**Format**[^8]
-
-- Data Table
-- Spatial raster
-- Spatial vector
-- Databases
-- Other entities
-:::
-
-::: {.column width=33%}
-
-**Protocols and methods**[^9]
-
-- Citizen science
-- Sensors
-- DNA-based techniques
-- Satellite remote sensing
-- Others (simulated data)
-:::
-
-::: {.column width=33%}
-
-**Thematic and/or "other classifications"**
-
-- Temporal information (e.g. longitudinal data / time series (LTS))
-- Spatial information (spatial data (GIS, occurrences, remote sensing, etc.)
-- Textual data (csv, …)
-- Taxonomic
-- Trait data
-- Non-exhaustive
-:::
-
-::::
-
-
-[^8]: According to the [Ecological Metadata Language (EML)](https://eml.ecoinformatics.org/eml-schema) classification
-[^9]: According to [Kissling *et al.* (2018)](https://doi.org/10.1111/brv.12359)
 
 
 
@@ -680,6 +522,55 @@ Generic term that starts whenever there are spatial coordinates (long/lat) assoc
 
 Again a very generic term, ranges from spreadsheets of data occurrences to DNA sequences, and text mining (systematic reviews, web scrapping, etc).
 
+
+
+<!-- page 17 bis -->
+
+## Classifying data : recap
+
+<br/>
+
+:::: {.columns}
+
+::: {.column width=33%}
+
+**Format**[^8]
+
+- Data Table
+- Spatial raster
+- Spatial vector
+- Databases
+- Other entities
+:::
+
+::: {.column width=33%}
+
+**Protocols and methods**[^9]
+
+- Citizen science
+- Sensors
+- DNA-based techniques
+- Satellite remote sensing
+- Others (simulated data)
+:::
+
+::: {.column width=33%}
+
+**Thematic and/or "other classifications"**
+
+- Temporal information (e.g. longitudinal data / time series (LTS))
+- Spatial information (spatial data (GIS, occurrences, remote sensing, etc.)
+- Textual data (csv, …)
+- Taxonomic
+- Trait data
+- Non-exhaustive
+:::
+
+::::
+
+
+[^8]: According to the [Ecological Metadata Language (EML)](https://eml.ecoinformatics.org/eml-schema) classification
+[^9]: According to [Kissling *et al.* (2018)](https://doi.org/10.1111/brv.12359)
 
 
 # Frameworks and Good practices
