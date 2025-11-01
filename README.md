@@ -4,9 +4,9 @@
   <br>
   <img src="images/readme/logo-readme.png" alt="Logo" width="200">
   <br>
-  Biodiversity data: General context
+  General context
   <br>
-  Open science, complex landscape & reproducibility
+  Open science, Data lifecycle & FAIR principles
   <br>
 </h1>
 
@@ -82,7 +82,7 @@ To understand the file organisation of this repository, please read this [Wiki](
 
 ## Citation
 
-Norvez O, Pamerlon S & Casajus N (2024) Biodiversity data: General context. Online presentation available at <https://github.com/biodiversitydata/general-context/>.
+Norvez O, Pamerlon S & Casajus N (2025) General context: Open science, Data lifecycle & FAIR principles. Online presentation available at <https://github.com/biodiversitydata/general-context/>.
 
 
 ## Contributing
