@@ -11,11 +11,11 @@
 ::: {.column .information width="68%"}
 
 ::: {.title}
-Biodiversity data: General context
+General context
 :::
 
 ::: {.subtitle}
-Open science, complex landscape & reproducibility
+Open science, Data lifecyle & FAIR principles
 :::
 
 ::: {.date}
@@ -71,6 +71,10 @@ Animation coordinator
 <code>@DataTerra</code>
 &nbsp;
 [{{< fa globe >}}](https://www.data-terra.org/)
+<br/>
+<code>@Theia</code>
+&nbsp;
+[{{< fa globe >}}](https://www.theia-land.fr/)
 :::
 
 ::: {.column .affiliation width="32%"}
@@ -82,7 +86,7 @@ Data engineer
 :::
 
 ::: {.column .affiliation width="32%"}
-Data scientist
+Senior data scientist
 <br/>
 <code>@FRB-CESAB</code>
 &nbsp;

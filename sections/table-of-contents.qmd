@@ -6,30 +6,32 @@
 
 ![](images/image-PNDB.png){width=90% fig-align='center'}
 
+<br>
+
 :::: { .columns }
 
 ::: { .column .center width="25%"}
 {{< fa code size=2x >}}
-<br>
-**Current challenges**
+<br><br>
+Current challenges
 :::
 
 ::: { .column .center width="25%"}
 {{< fa brands github size=2x >}}
-<br>
-**Data and metadata**
+<br><br>
+Data and metadata
 :::
 
 ::: { .column .center width="25%"}
 {{< fa book size=2x >}}
-<br>
-**Data types**
+<br><br>
+Data types
 :::
 
 ::: { .column .center width="25%"}
 {{< fa book size=2x >}}
-<br>
-**Framework and good practices**
+<br><br>
+Framework and good practices
 :::
 
 ::::

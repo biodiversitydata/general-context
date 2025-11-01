@@ -327,24 +327,30 @@ Website available at: <https://rdatatoolbox.github.io/>
 
 <!-- page 9 -->
 
-## Data vs. metadata
+## Exercise
 
-**What kind of data and/or metadata are you using for your research?**
+{{< fa circle-right>}} &nbsp;What kind of **data** / **metadata** are you using for your research?
 
-<br>
+<br /><br /><br />
+
 
 :::: {.columns}
 
-::: {.column width=50%}
-**DATA**
+::: {.column width=33%}
+![](images/postit.png){width=60% fig-align="center"}
 :::
 
-::: {.column width=50%}
-**METADATA**
+::: {.column width=33%}
+![](images/postit.png){width=60% fig-align="center"}
+:::
 
+::: {.column width=33%}
+![](images/postit.png){width=60% fig-align="center"}
 :::
 
 ::::
+
+
 
 
 <!-- page 10 -->
@@ -397,23 +403,29 @@ Website available at: <https://rdatatoolbox.github.io/>
 
 <!-- page 12 -->
 
-## Data classification(s)
+## Exercise
 
-**What kind of data and/or metadata are you using for your research?**
+{{< fa circle-right>}} &nbsp;How would you classify data?
 
-<br/>
+<br /><br /><br />
+
 
 :::: {.columns}
 
-::: {.column width=50%}
-**DATA**
+::: {.column width=33%}
+![](images/postit.png){width=60% fig-align="center"}
 :::
 
-::: {.column width=50%}
-**METADATA**
+::: {.column width=33%}
+![](images/postit.png){width=60% fig-align="center"}
+:::
+
+::: {.column width=33%}
+![](images/postit.png){width=60% fig-align="center"}
 :::
 
 ::::
+
 
 
 <!-- page 13 -->
@@ -433,9 +445,9 @@ Website available at: <https://rdatatoolbox.github.io/>
 ::: {.column .center width=50%}
 
 <br><br><br><br><br>
-{{< fa circle-right>}} &nbsp; **Link this information with your biodiversity research projects**
+{{< fa circle-right>}} &nbsp;**Link this information with your biodiversity research projects**
 
-Imagine : you're wondering about the distribution of a given species. 
+Imagine: you're wondering about the distribution of a given species. 
 
 :::
 ::::
@@ -849,7 +861,7 @@ It is recommended to prioritize deposits in **trusted thematic repositories** (e
 : Table 1: Examples of biodiversity and environmental data repositories, from [Ouvrir la science (2024)](https://www.ouvrirlascience.fr/selectionner-un-entrepot-thematique-de-confiance-pour-le-depot-de-donnees-methodologie-et-analyse-de-loffre-existante/) and adapted
 
 <!-- page 23 -->
-## General context : *take home message*
+## Take home message
 
 - **Heterogeneity** (data types, origin, standards) & **diversity** of "objects" to be linked together[^2]
 - **Loss of information** over time[^3]
@@ -885,25 +897,25 @@ It is recommended to prioritize deposits in **trusted thematic repositories** (e
 
 <!-- page 24 -->
 
-# General context : resources
+# Resources
 
 <!-- page 25 -->
 
-## General context : resources
+## Resources
 
 :::: {.columns}
 
 ::: {.column width=25%}
 
-**FRB Cesab**
+**FRB-CESAB**
 
 - [Publication](https://www.fondationbiodiversite.fr/en/cesab-scientific-publications/)
 
 - [Tools and databases](https://frbcesab.github.io)
 
-- [packages repository](https://frbcesab.r-universe.dev)
+- [Packages repository](https://frbcesab.r-universe.dev)
 
-- [training courses](https://frbcesab.github.io/content/courses.html)
+- [Training courses](https://frbcesab.github.io/content/courses.html)
 
 - [Blog](https://frbcesab.github.io/tips-and-tricks)
 
@@ -919,7 +931,7 @@ It is recommended to prioritize deposits in **trusted thematic repositories** (e
 
 - [Ecoinformatic ressources](https://www.pndb.fr/fr/ressources/ressources-en-ecoinformatique)
 
-- [écoinfoFAIR](https://www.pndb.fr/fr/activites/animations/ecoinfofair)
+- [EcoInfoFAIR](https://www.pndb.fr/fr/activites/animations/ecoinfofair)
 
 - [Bibliographic resources](https://www.pndb.fr/fr/ressources/ressources-bibliographiques)
 
@@ -934,13 +946,13 @@ It is recommended to prioritize deposits in **trusted thematic repositories** (e
 
 - [Data](https://www.gbif.org/occurrence/search)
 
-- [resources](https://www.gbif.org/resource/search)
+- [Resources](https://www.gbif.org/resource/search)
 
 - [data use clubs](https://www.gbif.org/composition/5klbauKUkbb4Wm27Ls5uYV/data-use-club)
 
 - [Darwin core standard](https://www.gbif.org/darwin-core)
 
-- [trainings](https://www.gbif.org/training)
+- [Trainings](https://www.gbif.org/training)
 
 ![](images/image-logo-gbif-france.png){width=60%}
 
