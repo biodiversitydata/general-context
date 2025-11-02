@@ -80,7 +80,7 @@
 :::
 
 ::: {.column .center width=70%}
-![](images/image-Garnier_et_al2025_TREE_landscape.jpg){width=50%}
+![](images/garnier-tee.png){width=100%}
 Figure from [Garnier & Pavoine _et al._,2025](https://doi.org/10.1016/j.tree.2025.06.004)
 :::
 
@@ -396,6 +396,34 @@ Website available at: <https://rdatatoolbox.github.io/>
 [^7]: [Borgman CL (2020)](https://books.openedition.org/oep/14692)
 
 <!-- page 11 -->
+
+## Defining biodiversity data
+
+:::: {.columns}
+
+::: {.column width=45%}
+> **Artifacts and symbols** collected, stored, and disseminated in order to document the constituent elements of life, extant or extinct, at **any scale of time and space**.
+
+<br />
+
+> These **elements are biological** and encompass anything that **contributes to the structure and function of life at any scale**, from the microscopic to the level of the planet, and to the **continuation of life, that is, its ability to persist and evolve over time**.
+
+:::
+
+::: {.column width=10%}
+:::
+
+::: {.column width=45%}
+![](images/garnier-tee.png)
+:::
+
+::::
+
+
+::: {.small}
+**Source:** Garnier E _et al._ (2025) <https://doi.org/10.1016/j.tree.2025.06.004>
+:::
+
 
 # Data classification(s)
 
