@@ -80,7 +80,7 @@
 :::
 
 ::: {.column .center width=70%}
-![](images/garnier-tee.png){width=100%}
+![](images/garnier-tee.png){width=70%}
 Figure from [Garnier & Pavoine _et al._,2025](https://doi.org/10.1016/j.tree.2025.06.004)
 :::
 
