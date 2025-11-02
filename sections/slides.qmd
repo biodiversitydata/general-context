@@ -80,7 +80,7 @@
 :::
 
 ::: {.column .center width=70%}
-![](images/image_Garnier_et_al2025_TREE_landscape.jpeg){width=100%}
+![](images/image-Garnier_et_al2025_TREE_landscape.jpg){width=50%}
 Figure from [Garnier & Pavoine _et al._,2025](https://doi.org/10.1016/j.tree.2025.06.004)
 :::
 
