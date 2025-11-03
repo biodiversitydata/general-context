@@ -80,7 +80,7 @@
 :::
 
 ::: {.column .center width=70%}
-![](images/garnier-tee.png){width=70%}
+![](images/garnier-tee.png){width=60%}
 Figure from [Garnier & Pavoine _et al._,2025](https://doi.org/10.1016/j.tree.2025.06.004)
 :::
 
@@ -425,7 +425,6 @@ Website available at: <https://rdatatoolbox.github.io/>
 :::
 
 <!-- page 12 -->
-
 
 ## Data, datasets, databases and co
 
@@ -987,20 +986,23 @@ It is recommended to prioritize deposits in **trusted thematic repositories** (e
 
 ::: {.column width=25%}
 
-**PNDB - Data Terra**
+**Data Terra**
 
-- [PNDB Tools and services](https://www.pndb.fr/fr/outils-services/presentation-outils-services) 
+- [PNDB Data Access](https://www.pndb.fr/explore) 
 
-- [Ecoinformatic ressources](https://www.pndb.fr/fr/ressources/ressources-en-ecoinformatique)
+- [PNDB Services](https://www.pndb.fr/pages/galaxy-ecology0/)
 
-- [EcoInfoFAIR](https://www.pndb.fr/fr/activites/animations/ecoinfofair)
+- [PNDB Resources](https://www.pndb.fr/fr/ressources/ressources-en-ecoinformatique)
 
-- [Bibliographic resources](https://www.pndb.fr/fr/ressources/ressources-bibliographiques)
+- [PNDB Bibliographic resources](https://pndb.opendatasoft.com/explore/?orderBy=updated_at+DESC&refines=keywords%3ABibliographie&refines=category%3ARessources)
+
+- [THEIA Data Access](https://catalogue.theia.data-terra.org/)
 
 - [Data Terra Tools and services](https://www.data-terra.org/donnees-services/acces-rapide/)
 
-![](images/image-logo-pndb.jpg){width=50%}
-![](images/image-logo-dataterra.png){width=50%}
+![](images/image-logo-dataterra2025.jpg){width=50%}
+![](images/image-logo-pndb.jpg){width=25%}
+![](images/image-logo-theia.png){width=25%}
 :::
 
 ::: {.column width=25%}
