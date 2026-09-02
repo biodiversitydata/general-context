@@ -6,12 +6,12 @@
 <script src="index_files/libs/quarto-html/tippy.umd.min.js"></script>
 <link href="index_files/libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="index_files/libs/quarto-html/light-border.css" rel="stylesheet">
-<link href="index_files/libs/quarto-html/quarto-syntax-highlighting-7b89279ff1a6dce999919e0e67d4d9ec.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="index_files/libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <link href="index_files/libs/quarto-contrib/fontawesome6-0.1.0/all.css" rel="stylesheet">
 <link href="index_files/libs/quarto-contrib/fontawesome6-0.1.0/latex-fontsize.css" rel="stylesheet">
 <link href="index_files/libs/quarto-contrib/academicons-1.9.2/all.css" rel="stylesheet">
 <link href="index_files/libs/quarto-contrib/academicons-1.9.2/size.css" rel="stylesheet"><meta charset="utf-8">
-  <meta name="generator" content="quarto-1.8.25">
+  <meta name="generator" content="quarto-1.10.18">
 
   <title>General context</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
@@ -20,10 +20,16 @@
   <link rel="stylesheet" href="index_files/libs/revealjs/dist/reset.css">
   <link rel="stylesheet" href="index_files/libs/revealjs/dist/reveal.css">
   <style>
-    code{white-space: pre-wrap;}
+    /* Default styles provided by pandoc.
+    ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+    */
     span.smallcaps{font-variant: small-caps;}
-    div.columns{display: flex; gap: min(4vw, 1.5em);}
-    div.column{flex: auto; overflow-x: auto;}
+    div.columns{display: flex; gap: 1.5em;}
+    div.column{flex: auto;}
+    @media screen {
+    div.columns{gap: min(4vw, 1.5em);}
+    div.column{overflow-x: auto;}
+    }
     div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
     ul.task-list{list-style: none;}
     ul.task-list li input[type="checkbox"] {
@@ -32,7 +38,7 @@
       vertical-align: middle;
     }
   </style>
-  <link rel="stylesheet" href="index_files/libs/revealjs/dist/theme/quarto-7e9783838747aff8f3e1fd2788a0d82a.css">
+  <link rel="stylesheet" href="index_files/libs/revealjs/dist/theme/quarto-c444b5ab7e5d07b649b9ffd7e725c9a6.css">
   <link href="index_files/libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
   <link href="index_files/libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
   <link href="index_files/libs/revealjs/plugin/reveal-menu/quarto-menu.css" rel="stylesheet">
@@ -148,7 +154,7 @@
 <p>Open science, Data lifecyle &amp; FAIR principles</p>
 </div>
 <div class="date">
-<p>November 2025</p>
+<p>September 2026</p>
 </div>
 <div class="columns authors">
 <div class="column author" style="width:32%;">
@@ -207,6 +213,22 @@
 <h1>Current challenges in biodiversity data</h1>
 <!-- first page -->
 </section>
+<section id="heterogeneity-and-loss-of-information" class="slide level2">
+<h2>Heterogeneity and loss of information</h2>
+<div class="columns">
+<div class="column center" style="width:50%;">
+<p><img data-src="images/image-Page2016.png" style="width:80.0%"></p>
+</div><div class="column center" style="width:50%;">
+<p><img data-src="images/image-Michener1997.jpg" style="width:80.0%"></p>
+</div></div>
+<div class="columns">
+<div class="column center" style="width:50%;">
+<p><strong>Heterogeneity (data types, origin, standards) &amp;<br>Diversity of “objects” to be linked together</strong><sup>1</sup></p>
+</div><div class="column center" style="width:50%;">
+<p><strong>Loss of information over time</strong><sup>2</sup></p>
+</div></div>
+<!-- second page -->
+<aside><ol class="aside-footnotes"><li id="fn1"><p><a href="https://riojournal.com/article/8767">Page (2016)</a></p></li><li id="fn2"><p><a href="https://doi.org/10.1890/1051-0761(1997)007%5B0330:NMFTES%5D2.0.CO;2">Michener <em>et al.</em> (1997)</a></p></li></ol></aside></section>
 <section id="open-science" class="slide level2">
 <h2>Open Science</h2>
 <p><strong>Second French Plan for Open Science</strong><sup>1</sup></p>
@@ -225,85 +247,318 @@
 <li><strong>Axe 4 :</strong> Transforming practices to make open science the default principle</li>
 </ul>
 </div></div>
-<!-- second page -->
-<aside><ol class="aside-footnotes"><li id="fn1"><p><a href="https://www.ouvrirlascience.fr/deuxieme-plan-national-pour-la-science-ouverte-pnso/">Second French Plan for Open Science</a></p></li></ol></aside></section>
-<section id="heterogeneity-and-loss-of-informations" class="slide level2">
-<h2>Heterogeneity and loss of informations</h2>
-<div class="columns">
-<div class="column center" style="width:50%;">
-<p><img data-src="images/image-Page2016.png" style="width:80.0%"></p>
-</div><div class="column center" style="width:50%;">
-<p><img data-src="images/image-Michener1997.jpg" style="width:80.0%"></p>
-</div></div>
-<div class="columns">
-<div class="column center" style="width:50%;">
-<p><strong>Heterogeneity (data types, origin, standards) &amp;<br>Diversity of “objects” to be linked together</strong><sup>1</sup></p>
-</div><div class="column center" style="width:50%;">
-<p><strong>Loss of information over time</strong><sup>2</sup></p>
-</div></div>
 <!-- third page -->
-<aside><ol class="aside-footnotes"><li id="fn2"><p><a href="https://riojournal.com/article/8767">Page (2016)</a></p></li><li id="fn3"><p><a href="https://doi.org/10.1890/1051-0761(1997)007%5B0330:NMFTES%5D2.0.CO;2">Michener <em>et al.</em> (1997)</a></p></li></ol></aside></section>
-<section id="a-complex-landscape" class="slide level2">
-<h2>A complex landscape</h2>
+<aside><ol class="aside-footnotes"><li id="fn3"><p><a href="https://riojournal.com/article/8767">Page (2016)</a></p></li></ol></aside></section>
+<section id="important-keywords" class="slide level2">
+<h2>Important keywords</h2>
+<p><br><br><br></p>
+<div class="columns">
+<div class="column center" style="width:25%;">
+<p><strong>Data life cycle</strong></p>
+<p><br></p>
+<p><img data-src="images/image-datalifecycle.png" style="width:100.0%"></p>
+</div><div class="column center" style="width:25%;">
+<p><strong>FAIR Principles</strong></p>
+<p><br><br><br></p>
+<p><img data-src="images/image-FAIR.png" style="width:100.0%"></p>
+</div><div class="column center" style="width:25%;">
+<p><strong>Reproducibility</strong></p>
+<p><br></p>
+<p><img data-src="images/reproducible-matrix.jpg" style="width:100.0%"></p>
+</div><div class="column center" style="width:25%;">
+<p><strong>Flux and stocks of data</strong></p>
+<p><br></p>
+<p><img data-src="images/image-Flux_dispositifs_SI.png" style="width:100.0%"></p>
+</div></div>
+</section></section>
+<section>
+<section id="data-vs.-metadata" class="title-slide slide level1 center">
+<h1>Data vs.&nbsp;metadata</h1>
+<!-- page 9 -->
+</section>
+<section id="exercise" class="slide level2">
+<h2>Exercise</h2>
+<p><br><br><br></p>
+<h4 id="what-kind-of-data-metadata-are-you-using-for-your-research">What kind of <strong>data</strong> / <strong>metadata</strong> are you using for your research?</h4>
+<!-- page 10 -->
+</section>
+<section id="definitions" class="slide level2">
+<h2>Definitions</h2>
+<div class="columns">
+<div class="column" style="width:33%;">
+<p>“<em>Research</em> <strong>data</strong> <em>are defined as factual records in the form of figures, texts, images and sounds which are used as the main sources for scientific research and which the scientific community generally recognizes as being necessary to validate research results</em>”<sup>1</sup>.</p>
+</div><div class="column center" style="width:33%;">
+<p><img data-src="images/image_DataMetadata.png" style="width:100.0%"></p>
+</div><div class="column" style="width:33%;">
+<p>“<strong>Metadata</strong>, <em>which can be simply defined as “data about data,” is a way of naming things and representing data and their relationships […] Metadata is structured information that describes, explains, locates, or otherwise makes it easier to retrieve, use or manage an information resource</em>”<sup>2</sup>.</p>
+</div></div>
+<h4 id="biodiversity-data"><strong>Biodiversity data</strong></h4>
+<blockquote>
+<p><strong>Artifacts and symbols</strong> collected, stored, and disseminated in order to document the constituent elements of life, extant or extinct, at <strong>any scale of time and space</strong>. <br> These <strong>elements are biological</strong> and encompass anything that <strong>contributes to the structure and function of life at any scale</strong>, from the microscopic to the level of the planet, and to the <strong>continuation of life, that is, its ability to persist and evolve over time</strong>.</p>
+</blockquote>
+<!-- page 12 -->
+<aside><ol class="aside-footnotes"><li id="fn4"><p><a href="https://riojournal.com/article/8767">Page (2016)</a></p></li><li id="fn5"><p><a href="https://doi.org/10.1890/1051-0761(1997)007%5B0330:NMFTES%5D2.0.CO;2">Michener <em>et al.</em> (1997)</a></p></li></ol></aside></section>
+<section id="data-datasets-databases-and-co" class="slide level2">
+<h2>Data, datasets, databases and co</h2>
+<div class="columns">
+<div class="column" style="width:45%;">
+<p><img data-src="images/data-circles3.png" style="width:100.0%"></p>
+<div class="small">
+<p><strong>Source:</strong> Blair J <em>et al.</em> (2020) <a href="https://doi.org/10.3897/BDJ.8.e32765" class="uri">https://doi.org/10.3897/BDJ.8.e32765</a></p>
+</div>
+</div><div class="column" style="width:5%;">
+
+</div><div class="column" style="width:50%;">
+<h4 id="legend"><strong>Legend:</strong> <br></h4>
+<ol type="a">
+<li><strong>Data</strong> and <strong>metadata</strong> make up (b) <strong>datasets</strong>. Multiple datasets in one location form a (c) <strong>database</strong>. (d) <strong>Aggregators</strong> compile data from many databases. <br><br><br></li>
+</ol>
+<p><strong>Repackagers</strong> transform data in a way that makes it more accessible for all audiences. <strong>External users</strong> (e.g.&nbsp;scientists, industries, government agencies etc.) access raw data by going through any or all of these data sharing portals.</p>
+</div></div>
+</section>
+<section id="relational-databases" class="slide level2">
+<h2>Relational databases</h2>
+<div class="columns">
+<div class="column" style="width:70%;">
+<blockquote>
+<p>A type of database that stores and provides access to data in tables that can be linked to each through shared columns and rows, called relations, with unique identifiers (keys) that show the different relationships between tables.</p>
+</blockquote>
+<p><br></p>
+<h4 id="codds-rules1">Codd’s rules<sup>1</sup> : <br></h4>
+<ol type="1">
+<li>Present the data to the user as relations (a presentation in tabular form, i.e.&nbsp;as a collection of tables with each table consisting of a set of rows and columns); <br></li>
+<li>Provide relational operators to manipulate the data in tabular form.</li>
+</ol>
+<p><br></p>
+<p>Tabular datasheets used to be enough to store ecological data. Nowadays, With the increasing amount of biodiversity and environmental data, the use of relational databases is becoming much more frequent.</p>
+</div><div class="column" style="width:5%;">
+
+</div><div class="column" style="width:25%;">
+<p><img data-src="images/relational-database.png" style="width:100.0%"></p>
+</div></div>
+<aside><ol class="aside-footnotes"><li id="fn6"><p><a href="https://riojournal.com/article/8767">Page (2016)</a></p></li></ol></aside></section></section>
+<section>
+<section id="data-classifications" class="title-slide slide level1 center">
+<h1>Data classification(s)</h1>
+<!-- page 13 -->
+</section>
+<section id="characterizing-data" class="slide level2">
+<h2>Characterizing data</h2>
+<p><br></p>
+<div class="columns">
+<div class="column" style="width:40%;">
+<p><img data-src="images/image_DataMetadata.png" style="width:100.0%"></p>
+</div><div class="column center" style="width:60%;">
+<p><br><br><br><br><br> <i class="fa-solid fa-circle-right" aria-label="circle-right"></i> &nbsp;<strong>Link this information with your biodiversity research projects</strong></p>
+<p>Imagine: you’re wondering about the distribution of a given species.</p>
+</div></div>
+<!-- page 13 bis -->
+</section>
+<section id="characterizing-data-1" class="slide level2">
+<h2>Characterizing data</h2>
+<p><br></p>
+<div class="columns">
+<div class="column" style="width:40%;">
+<p><img data-src="images/image_DataMetadata.png" style="width:100.0%"></p>
+</div><div class="column" style="width:60%;">
+<ul>
+<li><strong>what </strong> species ? –&gt; observation data: presence/absence, abundance, density, biomass ?</li>
+</ul>
+<blockquote>
+<p>but also: what are the intra-population variations ? DNA, trait measurements ? phylogeny ?</p>
+</blockquote>
+<ul>
+<li><p><strong>where</strong> are they spatially ? in which proportions ?</p></li>
+<li><p><strong>when</strong> were they observed or sampled ? repeated measures ? time stamp or global period ?</p></li>
+<li><p><strong>how</strong> were they collected ? biases ? pseudoreplication ? true absences ?</p></li>
+<li><p><strong>why</strong> and <strong>who</strong> : citizen science ? opportunistic ? funding ?</p></li>
+</ul>
+</div></div>
+<!-- page xx -->
+</section>
+<section id="exercise-1" class="slide level2">
+<h2>Exercise</h2>
+<p><br><br><br></p>
+<h3 id="which-data-types-can-you-think-about"><strong>Which data types can you think about? </strong></h3>
+<!-- page xx -->
+</section>
+<section id="data-categories-by-format" class="slide level2">
+<h2>Data categories: <em>by format</em></h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<p>According to the EML classification<sup>1</sup></p>
+<ul>
+<li>Data Table</li>
+<li>Spatial raster</li>
+<li>Spatial vector</li>
+<li>Databases</li>
+<li>Other entities</li>
+</ul>
+</div><div class="column center" style="width:50%;">
+<p><img data-src="images/raster-vector.png" style="width:100.0%"></p>
+</div></div>
+<div class="columns">
+<div class="column" style="width:50%;">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="images/image-logo-eml.jpg" class="quarto-figure quarto-figure-center" style="width:30.0%"></p>
+</figure>
+</div>
+</div><div class="column" style="width:50%;">
+
+</div></div>
+<!-- page xx -->
+<aside><ol class="aside-footnotes"><li id="fn7"><p><a href="https://riojournal.com/article/8767">Page (2016)</a></p></li></ol></aside></section>
+<section id="data-categories-by-protocols-and-methods" class="slide level2">
+<h2>Data categories: <em>by protocols and methods</em></h2>
 <div class="columns">
 <div class="column" style="width:30%;">
 <p><br></p>
+<p>According to <a href="https://doi.org/10.1111/brv.12359">Kissling WD <em>et al.</em> (2018)</a></p>
 <ul>
-<li>Diversity of tools and practices (historical practices)</li>
-<li>Different supervisions</li>
-<li>Flow and storage of data and metadata</li>
-<li>Difficulty for data producers to identify the right information systems to deposit their data according to the scopes and themes</li>
-<li>Difficulty for users to know where and how to search for data</li>
+<li>Inventories (opportunist vs (semi-)protocole)</li>
+<li>Sensors</li>
+<li>DNA-based techniques</li>
+<li>Satellite remote sensing</li>
+<li>Others (simulated data)</li>
 </ul>
 </div><div class="column center" style="width:70%;">
-<p><img data-src="images/garnier-tee.png" style="width:60.0%"> Figure from <a href="https://doi.org/10.1016/j.tree.2025.06.004">Garnier &amp; Pavoine <em>et al.</em>,2025</a></p>
+<p><img data-src="images/image-dataType-Kissing2018.jpg" style="width:100.0%"></p>
 </div></div>
-<!-- fourth page -->
+<!-- page 17 -->
 </section>
-<section id="a-complex-landscape-1" class="slide level2">
-<h2>A complex landscape</h2>
+<section id="data-categories-thematic-andor-other-classifications" class="slide level2">
+<h2>Data categories: <em>thematic and/or “other classifications”</em></h2>
+<div class="columns">
+<div class="column" style="width:70%;">
+<ul>
+<li><strong>Longitudinal data</strong></li>
+</ul>
+<p>Repeated measures, such as long term surveys, allowing to look at evolution (of abundances, biomass, etc) over time.</p>
+<blockquote>
+<p>Time series analyses</p>
+</blockquote>
+</div><div class="column" style="width:30%;">
+<p><img data-src="images/time-series.png" style="width:80.0%"></p>
+</div></div>
+<ul>
+<li><strong>Spatial data</strong></li>
+</ul>
+<p>Generic term that starts whenever there are spatial coordinates (long/lat) associated with an observation. May also refer to remote sensing images, GIS.</p>
+<p><br></p>
+<ul>
+<li><strong>Textual data</strong></li>
+</ul>
+<p>Again a very generic term, ranges from spreadsheets of data occurrences to DNA sequences, and text mining (systematic reviews, web scrapping, etc).</p>
+<!-- page 14 -->
+</section>
+<section id="recap-data-classifications" class="slide level2">
+<h2>Recap: data classifications</h2>
+<p><br></p>
+<div class="columns">
+<div class="column" style="width:33%;">
+<p><strong>Format</strong><sup>1</sup></p>
+<ul>
+<li>Data Table</li>
+<li>Spatial raster</li>
+<li>Spatial vector</li>
+<li>Databases</li>
+<li>Other entities</li>
+</ul>
+</div><div class="column" style="width:33%;">
+<p><strong>Protocols and methods</strong><sup>2</sup></p>
+<ul>
+<li>Inventories (opportunist vs (semi-)protocole)</li>
+<li>Sensors</li>
+<li>DNA-based techniques</li>
+<li>Satellite remote sensing</li>
+<li>Others (simulated data)</li>
+</ul>
+</div><div class="column" style="width:33%;">
+<p><strong>Thematic and/or “other classifications”</strong></p>
+<ul>
+<li>Temporal information (e.g.&nbsp;longitudinal data / time series (LTS))</li>
+<li>Spatial information (spatial data (GIS, occurrences, remote sensing, etc.)</li>
+<li>Textual data (csv, …)</li>
+<li>Taxonomic</li>
+<li>Trait data</li>
+<li>Non-exhaustive</li>
+</ul>
+</div></div>
+<aside><ol class="aside-footnotes"><li id="fn8"><p><a href="https://riojournal.com/article/8767">Page (2016)</a></p></li><li id="fn9"><p><a href="https://doi.org/10.1890/1051-0761(1997)007%5B0330:NMFTES%5D2.0.CO;2">Michener <em>et al.</em> (1997)</a></p></li></ol></aside></section></section>
+<section>
+<section id="frameworks-and-good-practices" class="title-slide slide level1 center">
+<h1>Frameworks and Good practices</h1>
+<!-- page xx -->
+</section>
+<section id="frameworks-and-good-practices-1" class="slide level2">
+<h2>Frameworks and Good practices</h2>
+<p><br><br><br></p>
+<div class="columns">
+<div class="column center" style="width:25%;">
+<p><strong>Data life cycle</strong></p>
+<p><br></p>
+<p><img data-src="images/image-datalifecycle.png" style="width:100.0%"></p>
+</div><div class="column center" style="width:25%;">
+<p><strong>FAIR Principles</strong></p>
+<p><br><br><br></p>
+<p><img data-src="images/image-FAIR.png" style="width:100.0%"></p>
+</div><div class="column center" style="width:25%;">
+<p><strong>Reproducibility</strong></p>
+<p><br></p>
+<p><img data-src="images/reproducible-matrix.jpg" style="width:100.0%"></p>
+</div><div class="column center" style="width:25%;">
+<p><strong>Flux and stocks of data</strong></p>
+<p><br></p>
+<p><img data-src="images/image-Flux_dispositifs_SI.png" style="width:100.0%"></p>
+</div></div>
+<!-- page xx -->
+</section>
+<section id="data-life-cycle" class="slide level2">
+<h2>Data life cycle</h2>
 <div class="columns">
 <div class="column" style="width:60%;">
-<p><br> A note are to support producers and reusers of biodiversity data and metadata in:</p>
-<ul>
-<li>Understanding the landscape (actors, who does what, who is who, etc.)</li>
-<li>Sharing (meta)data (where to deposit, what types of data, etc.)</li>
-<li>Using the latter via the complementary of information systems according to the themes and/or target audiences</li>
-</ul>
+<p><img data-src="images/image-datalifecycle.png" style="width:100.0%"></p>
+</div><div class="column" style="width:40%;">
+<p><br><br><br></p>
+<p>The data lifecycle is the set of stages of management, conservation and dissemination of research data, associated with research activities.</p>
 <p><br></p>
-<p>The targets of this note are above all researchers, managers, engineers and data technicians</p>
-</div><div class="column center" style="width:40%;">
-<p><img data-src="images/image-noteflux2023.jpg" style="width:60.0%"></p>
+<p><i class="fa-solid fa-circle-right" aria-label="circle-right"></i> &nbsp;For more information: <a href="https://www.pndb.fr/fr/ressources/principes-fair-et-cycle-de-vie-des-donnees">PNDB</a></p>
 </div></div>
-<p><br></p>
-<ul>
-<li>Version 1 is available <a href="https://mnhn.hal.science/mnhn-04296424/">here</a></li>
-<li>Version 2 will be available soon in January 2025 <br></li>
-</ul>
-<!-- fifth page -->
+<!-- page xx -->
 </section>
-<section id="a-complex-landscape-2" class="slide level2">
-<h2>A complex landscape</h2>
-<div class="quarto-figure quarto-figure-center">
+<section id="fair-principles" class="slide level2">
+<h2>FAIR principles</h2>
+<div class="columns">
+<div class="column" style="width:60%;">
+<p><br><br></p>
+<p>A set of guiding principles for managing research data to make it <strong>F</strong>indable, <strong>A</strong>ccessible, <strong>I</strong>nteroperable, and <strong>R</strong>eusable by humans and machines<sup>1</sup>.</p>
+<p><strong>This is the way!</strong></p>
+<p><img data-src="images/image-FAIR.png" style="width:50.0%"></p>
+<p><img data-src="images/image-GOFAIR.png" style="width:30.0%"></p>
+<p><i class="fa-solid fa-circle-right" aria-label="circle-right"></i> &nbsp;For more information: <a href="https://www.pndb.fr/fr/ressources/principes-fair-et-cycle-de-vie-des-donnees">PNDB</a></p>
+</div><div class="column right" style="width:40%;">
+<div class="quarto-figure quarto-figure-right">
 <figure>
-<p><img data-src="images/image-Flux_dispositifs_SI.png" class="quarto-figure quarto-figure-center" style="width:70.0%"></p>
+<p><img data-src="images/image-FAIRprinciples.jpg" class="quarto-figure quarto-figure-right" style="width:70.0%"></p>
 </figure>
 </div>
-<!-- sixth page -->
-</section>
-<section id="a-complex-landscape-3" class="slide level2">
-<h2>A complex landscape</h2>
+</div></div>
+<!-- page 21 -->
+<aside><ol class="aside-footnotes"><li id="fn10"><p><a href="https://riojournal.com/article/8767">Page (2016)</a></p></li></ol></aside></section>
+<section id="fair-principles-1" class="slide level2">
+<h2>FAIR principles</h2>
 <div class="quarto-figure quarto-figure-center">
 <figure>
-<p><img data-src="images/image-logigrammeFluxSI.png" class="quarto-figure quarto-figure-center" style="width:70.0%"></p>
+<p><img data-src="images/image-Datastandardization.png" class="quarto-figure quarto-figure-center" style="width:80.0%"></p>
 </figure>
 </div>
+<p><i class="fa-solid fa-circle-right" aria-label="circle-right"></i> &nbsp;For more information: <a href="https://www.pndb.fr/fr/outils-services/outils-services-par-etapes/preservation#Standardisation%20des%20%7Bm%C3%A9ta%7Ddonn%C3%A9es">PNDB</a> and <a href="https://www.gbif.org/darwin-core">GBIF</a></p>
 </section></section>
 <section>
 <section id="reproducibility-concepts" class="title-slide slide level1 center">
 <h1>Reproducibility concepts</h1>
-<!-- seventh page -->
-<!-- page 8 @Nico -->
+<!-- page xxx @Nico -->
 </section>
 <section id="what-is-reproducibility" class="slide level2">
 <h2>What is reproducibility?</h2>
@@ -336,7 +591,7 @@
 <p>[…] all raw data and metadata, code, programming scripts, and bespoke software necessary for fully replicating any analyses that lead to inferences made in a published study<sup>2</sup>.</p>
 </blockquote>
 </div></div>
-<aside><ol class="aside-footnotes"><li id="fn4"><p><a href="https://doi.org/10.1002/eap.1822">Powers &amp; Hampton (2018)</a></p></li><li id="fn5"><p><a href="https://doi.org/10.1002/ece3.9961">Genkins <em>et al.</em> (2016)</a></p></li></ol></aside></section>
+<aside><ol class="aside-footnotes"><li id="fn11"><p><a href="https://riojournal.com/article/8767">Page (2016)</a></p></li><li id="fn12"><p><a href="https://doi.org/10.1890/1051-0761(1997)007%5B0330:NMFTES%5D2.0.CO;2">Michener <em>et al.</em> (1997)</a></p></li></ol></aside></section>
 <section id="why-does-it-matter" class="slide level2">
 <h2>Why does it matter?</h2>
 <blockquote>
@@ -346,7 +601,7 @@
 <p>Claerbout &amp; Karrenbach (1992)<sup>1</sup></p>
 </div>
 <p><br></p>
-<aside><ol class="aside-footnotes"><li id="fn6"><p><a href="https://doi.org/10.1190/1.1822162" class="uri">https://doi.org/10.1190/1.1822162</a></p></li></ol></aside></section>
+<aside><ol class="aside-footnotes"><li id="fn13"><p><a href="https://doi.org/10.1190/1.1822162" class="uri">https://doi.org/10.1190/1.1822162</a></p></li></ol></aside></section>
 <section id="why-does-it-matter-1" class="slide level2">
 <h2>Why does it matter?</h2>
 <blockquote>
@@ -362,7 +617,7 @@
 <div class="citation">
 <p>Peng (2011)<sup>2</sup></p>
 </div>
-<aside><ol class="aside-footnotes"><li id="fn7"><p><a href="https://doi.org/10.1190/1.1822162" class="uri">https://doi.org/10.1190/1.1822162</a></p></li><li id="fn8"><p><a href="https://doi.org/10.1126/science.1213847" class="uri">https://doi.org/10.1126/science.1213847</a></p></li></ol></aside></section>
+<aside><ol class="aside-footnotes"><li id="fn14"><p><a href="https://doi.org/10.1190/1.1822162" class="uri">https://doi.org/10.1190/1.1822162</a></p></li><li id="fn15"><p><a href="https://doi.org/10.1126/science.1213847" class="uri">https://doi.org/10.1126/science.1213847</a></p></li></ol></aside></section>
 <section id="why-does-it-matter-2" class="slide level2">
 <h2>Why does it matter?</h2>
 <blockquote>
@@ -380,7 +635,7 @@
 </div>
 <p><br></p>
 <p><i class="fa-solid fa-hand-point-right" aria-label="hand-point-right"></i> &nbsp;Sharing the code and the data is now a prerequisite for publishing in many journals</p>
-<aside><ol class="aside-footnotes"><li id="fn9"><p><a href="https://doi.org/10.1190/1.1822162" class="uri">https://doi.org/10.1190/1.1822162</a></p></li><li id="fn10"><p><a href="https://doi.org/10.1126/science.1213847" class="uri">https://doi.org/10.1126/science.1213847</a></p></li></ol></aside></section>
+<aside><ol class="aside-footnotes"><li id="fn16"><p><a href="https://doi.org/10.1190/1.1822162" class="uri">https://doi.org/10.1190/1.1822162</a></p></li><li id="fn17"><p><a href="https://doi.org/10.1126/science.1213847" class="uri">https://doi.org/10.1126/science.1213847</a></p></li></ol></aside></section>
 <section id="reproducibility-spectrum" class="slide level2">
 <h2>Reproducibility spectrum</h2>
 <p><br></p>
@@ -394,7 +649,7 @@
 <p><br></p>
 <p>Each degree of reproducibility requires additional skills and time. While some of those skills (e.g.&nbsp;literal programming, version control, setting up environments) pay off in the long run, they can require a high up-front investment.</p>
 </div>
-<aside><ol class="aside-footnotes"><li id="fn11"><p><a href="https://doi.org/10.1126/science.1213847" class="uri">https://doi.org/10.1126/science.1213847</a></p></li></ol></aside></section>
+<aside><ol class="aside-footnotes"><li id="fn18"><p><a href="https://doi.org/10.1126/science.1213847" class="uri">https://doi.org/10.1126/science.1213847</a></p></li></ol></aside></section>
 <section id="concepts" class="slide level2">
 <h2>Concepts</h2>
 <p>According to Wilson <em>et al.</em> (2017)<sup>1</sup>, good practices for a better reproducibility can be organized into the following six topics:</p>
@@ -416,7 +671,7 @@
 </div><div class="column center" style="width:33%;">
 <p><i class="fa-brands fa-r-project" aria-label="r-project"></i> &nbsp;Code &amp; Software</p>
 </div></div>
-<aside><ol class="aside-footnotes"><li id="fn12"><p><a href="https://doi.org/10.1371/journal.pcbi.1005510" class="uri">https://doi.org/10.1371/journal.pcbi.1005510</a></p></li></ol></aside></section>
+<aside><ol class="aside-footnotes"><li id="fn19"><p><a href="https://doi.org/10.1371/journal.pcbi.1005510" class="uri">https://doi.org/10.1371/journal.pcbi.1005510</a></p></li></ol></aside></section>
 <section id="tools" class="slide level2">
 <h2>Tools</h2>
 <p><br></p>
@@ -432,370 +687,6 @@
 </div>
 <p><br> <br></p>
 <p>Website available at: <a href="https://rdatatoolbox.github.io/" class="uri">https://rdatatoolbox.github.io/</a></p>
-</section></section>
-<section>
-<section id="data-vs.-metadata" class="title-slide slide level1 center">
-<h1>Data vs.&nbsp;metadata</h1>
-<!-- page 9 -->
-</section>
-<section id="exercise" class="slide level2">
-<h2>Exercise</h2>
-<p><i class="fa-solid fa-circle-right" aria-label="circle-right"></i> &nbsp;What kind of <strong>data</strong> / <strong>metadata</strong> are you using for your research?</p>
-<p><br><br><br></p>
-<div class="columns">
-<div class="column" style="width:33%;">
-<div class="quarto-figure quarto-figure-center">
-<figure>
-<p><img data-src="images/postit.png" class="quarto-figure quarto-figure-center" style="width:60.0%"></p>
-</figure>
-</div>
-</div><div class="column" style="width:33%;">
-<div class="quarto-figure quarto-figure-center">
-<figure>
-<p><img data-src="images/postit.png" class="quarto-figure quarto-figure-center" style="width:60.0%"></p>
-</figure>
-</div>
-</div><div class="column" style="width:33%;">
-<div class="quarto-figure quarto-figure-center">
-<figure>
-<p><img data-src="images/postit.png" class="quarto-figure quarto-figure-center" style="width:60.0%"></p>
-</figure>
-</div>
-</div></div>
-<!-- page 10 -->
-</section>
-<section id="definitions" class="slide level2">
-<h2>Definitions</h2>
-<div class="columns">
-<div class="column" style="width:33%;">
-<p>“<em>Research</em> <strong>data</strong> <em>are defined as factual records in the form of figures, texts, images and sounds which are used as the main sources for scientific research and which the scientific community generally recognizes as being necessary to validate research results</em>”<sup>1</sup>.</p>
-</div><div class="column center" style="width:33%;">
-<p><img data-src="images/image_DataMetadata.png" style="width:100.0%"></p>
-</div><div class="column" style="width:33%;">
-<p>“<strong>Metadata</strong>, <em>which can be simply defined as “data about data,” is a way of naming things and representing data and their relationships […] Metadata is structured information that describes, explains, locates, or otherwise makes it easier to retrieve, use or manage an information resource</em>”<sup>2</sup>.</p>
-</div></div>
-<div class="columns">
-<div class="column center" style="width:33%;">
-<p><img data-src="images/image-OECD-Data2007.jpg" style="width:45.0%"></p>
-</div><div class="column" style="width:33%;">
-
-</div><div class="column center" style="width:33%;">
-<p><img data-src="images/image_Borgman2015.jpg" style="width:40.0%"></p>
-</div></div>
-<!-- page 11 -->
-<aside><ol class="aside-footnotes"><li id="fn13"><p><a href="https://www.oecd-ilibrary.org/science-and-technology/oecd-principles-and-guidelines-for-access-to-research-data-from-public-funding_9789264034020-en-fr">OECD (2007)</a></p></li><li id="fn14"><p><a href="https://books.openedition.org/oep/14692">Borgman CL (2020)</a></p></li></ol></aside></section>
-<section id="defining-biodiversity-data" class="slide level2">
-<h2>Defining biodiversity data</h2>
-<div class="columns">
-<div class="column" style="width:45%;">
-<blockquote>
-<p><strong>Artifacts and symbols</strong> collected, stored, and disseminated in order to document the constituent elements of life, extant or extinct, at <strong>any scale of time and space</strong>.</p>
-</blockquote>
-<p><br></p>
-<blockquote>
-<p>These <strong>elements are biological</strong> and encompass anything that <strong>contributes to the structure and function of life at any scale</strong>, from the microscopic to the level of the planet, and to the <strong>continuation of life, that is, its ability to persist and evolve over time</strong>.</p>
-</blockquote>
-</div><div class="column" style="width:10%;">
-
-</div><div class="column" style="width:45%;">
-<p><img data-src="images/garnier-tee.png"></p>
-</div></div>
-<div class="small">
-<p><strong>Source:</strong> Garnier E <em>et al.</em> (2025) <a href="https://doi.org/10.1016/j.tree.2025.06.004" class="uri">https://doi.org/10.1016/j.tree.2025.06.004</a></p>
-</div>
-<!-- page 12 -->
-</section>
-<section id="data-datasets-databases-and-co" class="slide level2">
-<h2>Data, datasets, databases and co</h2>
-<div class="columns">
-<div class="column" style="width:45%;">
-<p><img data-src="images/data-circles.png" style="width:80.0%"></p>
-</div><div class="column" style="width:10%;">
-
-</div><div class="column" style="width:45%;">
-<p><br> <br> <br></p>
-<p><strong>Legend:</strong> (a) Data and metadata make up (b) datasets. Multiple datasets in one location form a (c) database. (d) Aggregators compile data from many databases and (e) repackagers transform data in a way that makes it more accessible for all audiences (i.e.&nbsp;lay and professional). (f) External users (e.g.&nbsp;scientists, industries, government agencies etc.) access raw data by (g) going through any or all of these data sharing portals.</p>
-</div></div>
-<p><br></p>
-<div class="small">
-<p><strong>Source:</strong> Blair J <em>et al.</em> (2020) <a href="https://doi.org/10.3897/BDJ.8.e32765" class="uri">https://doi.org/10.3897/BDJ.8.e32765</a></p>
-</div>
-</section></section>
-<section>
-<section id="data-classifications" class="title-slide slide level1 center">
-<h1>Data classification(s)</h1>
-<!-- page 13 -->
-</section>
-<section id="exercise-1" class="slide level2">
-<h2>Exercise</h2>
-<p><i class="fa-solid fa-circle-right" aria-label="circle-right"></i> &nbsp;How would you classify data?</p>
-<p><br><br><br></p>
-<div class="columns">
-<div class="column" style="width:33%;">
-<div class="quarto-figure quarto-figure-center">
-<figure>
-<p><img data-src="images/postit.png" class="quarto-figure quarto-figure-center" style="width:60.0%"></p>
-</figure>
-</div>
-</div><div class="column" style="width:33%;">
-<div class="quarto-figure quarto-figure-center">
-<figure>
-<p><img data-src="images/postit.png" class="quarto-figure quarto-figure-center" style="width:60.0%"></p>
-</figure>
-</div>
-</div><div class="column" style="width:33%;">
-<div class="quarto-figure quarto-figure-center">
-<figure>
-<p><img data-src="images/postit.png" class="quarto-figure quarto-figure-center" style="width:60.0%"></p>
-</figure>
-</div>
-</div></div>
-<!-- page 13 -->
-</section>
-<section id="characterizing-data" class="slide level2">
-<h2>Characterizing data</h2>
-<p><br></p>
-<div class="columns">
-<div class="column" style="width:50%;">
-<p><img data-src="images/image_DataMetadata.png" style="width:80.0%"></p>
-</div><div class="column center" style="width:50%;">
-<p><br><br><br><br><br> <i class="fa-solid fa-circle-right" aria-label="circle-right"></i> &nbsp;<strong>Link this information with your biodiversity research projects</strong></p>
-<p>Imagine: you’re wondering about the distribution of a given species.</p>
-</div></div>
-<!-- page 13 bis -->
-</section>
-<section id="characterizing-data-1" class="slide level2">
-<h2>Characterizing data</h2>
-<p><br></p>
-<div class="columns">
-<div class="column" style="width:50%;">
-<p><img data-src="images/image_DataMetadata.png" style="width:80.0%"></p>
-</div><div class="column" style="width:50%;">
-<ul>
-<li><strong>what </strong> species ? –&gt; observation data: presence/absence, abundance, density, biomass ?</li>
-</ul>
-<blockquote>
-<p>but also: what are the intra-population variations ? DNA, trait measurements ? phylogeny ?</p>
-</blockquote>
-<ul>
-<li><p><strong>where</strong> are they spatially ? in which proportions ?</p></li>
-<li><p><strong>when</strong> were they observed or sampled ? repeated measures ? time stamp or global period ?</p></li>
-<li><p><strong>how</strong> were they collected ? biases ? pseudoreplication ? true absences ?</p></li>
-<li><p><strong>why</strong> and <strong>who</strong> : citizen science ? opportunistic ? funding ?</p></li>
-</ul>
-</div></div>
-<!-- page 14 -->
-</section>
-<section id="classifying-data-by" class="slide level2">
-<h2>Classifying data by…</h2>
-<p><br></p>
-<div class="columns">
-<div class="column" style="width:33%;">
-<p><strong>Format</strong><sup>1</sup></p>
-<ul>
-<li>Data Table</li>
-<li>Spatial raster</li>
-<li>Spatial vector</li>
-<li>Databases</li>
-<li>Other entities</li>
-</ul>
-</div><div class="column" style="width:33%;">
-
-</div><div class="column" style="width:33%;">
-
-</div></div>
-<!-- page 14 -->
-<aside><ol class="aside-footnotes"><li id="fn15"><p>According to the <a href="https://eml.ecoinformatics.org/eml-schema">Ecological Metadata Language (EML)</a> classification</p></li></ol></aside></section>
-<section id="classifying-data-by-1" class="slide level2">
-<h2>Classifying data by…</h2>
-<p><br></p>
-<div class="columns">
-<div class="column" style="width:33%;">
-<p><strong>Format</strong><sup>1</sup></p>
-<ul>
-<li>Data Table</li>
-<li>Spatial raster</li>
-<li>Spatial vector</li>
-<li>Databases</li>
-<li>Other entities</li>
-</ul>
-</div><div class="column" style="width:33%;">
-<p><strong>Protocols and methods</strong><sup>2</sup></p>
-<ul>
-<li>Citizen science</li>
-<li>Sensors</li>
-<li>DNA-based techniques</li>
-<li>Satellite remote sensing</li>
-<li>Others (simulated data)</li>
-</ul>
-</div><div class="column" style="width:33%;">
-
-</div></div>
-<!-- page 14 -->
-<aside><ol class="aside-footnotes"><li id="fn16"><p>According to the <a href="https://eml.ecoinformatics.org/eml-schema">Ecological Metadata Language (EML)</a> classification</p></li><li id="fn17"><p>According to <a href="https://doi.org/10.1111/brv.12359">Kissling <em>et al.</em> (2018)</a></p></li></ol></aside></section>
-<section id="classifying-data-by-2" class="slide level2">
-<h2>Classifying data by…</h2>
-<p><br></p>
-<div class="columns">
-<div class="column" style="width:33%;">
-<p><strong>Format</strong><sup>1</sup></p>
-<ul>
-<li>Data Table</li>
-<li>Spatial raster</li>
-<li>Spatial vector</li>
-<li>Databases</li>
-<li>Other entities</li>
-</ul>
-</div><div class="column" style="width:33%;">
-<p><strong>Protocols and methods</strong><sup>2</sup></p>
-<ul>
-<li>Citizen science</li>
-<li>Sensors</li>
-<li>DNA-based techniques</li>
-<li>Satellite remote sensing</li>
-<li>Others (simulated data)</li>
-</ul>
-</div><div class="column" style="width:33%;">
-<p><strong>Thematic and/or “other classifications”</strong></p>
-<ul>
-<li>Temporal information (e.g.&nbsp;longitudinal data / time series (LTS))</li>
-<li>Spatial information (spatial data (GIS, occurrences, remote sensing, etc.)</li>
-<li>Textual data (csv, …)</li>
-<li>Taxonomic</li>
-<li>Trait data</li>
-<li>Non-exhaustive</li>
-</ul>
-</div></div>
-<!-- page 15 -->
-<aside><ol class="aside-footnotes"><li id="fn18"><p>According to the <a href="https://eml.ecoinformatics.org/eml-schema">Ecological Metadata Language (EML)</a> classification</p></li><li id="fn19"><p>According to <a href="https://doi.org/10.1111/brv.12359">Kissling <em>et al.</em> (2018)</a></p></li></ol></aside></section>
-<section id="data-categories-by-format" class="slide level2">
-<h2>Data categories: <em>by format</em></h2>
-<div class="columns">
-<div class="column" style="width:50%;">
-<p>According to the EML classification<sup>1</sup></p>
-<ul>
-<li>Data Table</li>
-<li>Spatial raster</li>
-<li>Spatial vector</li>
-<li>Databases</li>
-<li>Other entities</li>
-</ul>
-</div><div class="column center" style="width:50%;">
-<p><img data-src="images/image-eml-semantics.png" style="width:100.0%"></p>
-</div></div>
-<div class="columns">
-<div class="column" style="width:50%;">
-<div class="quarto-figure quarto-figure-center">
-<figure>
-<p><img data-src="images/image-logo-eml.jpg" class="quarto-figure quarto-figure-center" style="width:30.0%"></p>
-</figure>
-</div>
-</div><div class="column" style="width:50%;">
-
-</div></div>
-<!-- page 16 -->
-<aside><ol class="aside-footnotes"><li id="fn20"><p><a href="https://eml.ecoinformatics.org/eml-schema">Matthew B <em>et al.</em> (2019)</a></p></li></ol></aside></section>
-<section id="data-categories-by-type" class="slide level2">
-<h2>Data categories: <em>by type</em></h2>
-<div class="columns">
-<div class="column" style="width:30%;">
-<p><br></p>
-<p>According to <a href="https://doi.org/10.1111/brv.12359">Kissling WD <em>et al.</em> (2018)</a></p>
-<ul>
-<li>Citizen science</li>
-<li>Sensors</li>
-<li>DNA-based techniques</li>
-<li>Satellite remote sensing</li>
-<li>Others (simulated data)</li>
-</ul>
-</div><div class="column center" style="width:70%;">
-<p><img data-src="images/image-dataType-Kissing2018.jpg" style="width:100.0%"></p>
-</div></div>
-<!-- page 17 -->
-</section>
-<section id="data-categories-thematic-andor-other-classifications" class="slide level2">
-<h2>Data categories: <em>thematic and/or “other classifications”</em></h2>
-<ul>
-<li><strong>Longitudinal data</strong></li>
-</ul>
-<p>Repeated measures, such as long term surveys, allowing to look at evolution (of abundances, biomass, etc) over time.</p>
-<blockquote>
-<p>Time series analyses</p>
-</blockquote>
-<ul>
-<li><strong>Spatial data</strong></li>
-</ul>
-<p>Generic term that starts whenever there are spatial coordinates (long/lat) associated with an observation. May also refer to remote sensing images, GIS.</p>
-<p><br></p>
-<ul>
-<li><strong>Textual data</strong></li>
-</ul>
-<p>Again a very generic term, ranges from spreadsheets of data occurrences to DNA sequences, and text mining (systematic reviews, web scrapping, etc).</p>
-</section></section>
-<section>
-<section id="frameworks-and-good-practices" class="title-slide slide level1 center">
-<h1>Frameworks and Good practices</h1>
-<!-- page 18 -->
-</section>
-<section id="frameworks-and-good-practices-1" class="slide level2">
-<h2>Frameworks and Good practices</h2>
-<p><br></p>
-<div class="columns">
-<div class="column center" style="width:33%;">
-<p><strong>Data life cycle</strong></p>
-<p><br></p>
-<p><img data-src="images/image-datalifecycle.png" style="width:100.0%"></p>
-</div><div class="column center" style="width:33%;">
-<p><strong>FAIR Principles</strong></p>
-<p><br><br><br></p>
-<p><img data-src="images/image-FAIR.png" style="width:100.0%"></p>
-</div><div class="column center" style="width:33%;">
-<p><strong>Flux and stocks of data</strong></p>
-<p><br></p>
-<p><img data-src="images/image-Flux_dispositifs_SI.png" style="width:100.0%"></p>
-</div></div>
-<!-- page 18 -->
-</section>
-<section id="data-life-cycle" class="slide level2">
-<h2>Data life cycle</h2>
-<div class="columns">
-<div class="column" style="width:60%;">
-<p><img data-src="images/image-datalifecycle.png" style="width:100.0%"></p>
-</div><div class="column" style="width:40%;">
-<p><br><br><br></p>
-<p>The data lifecycle is the set of stages of management, conservation and dissemination of research data, associated with research activities.</p>
-<p><br></p>
-<p><i class="fa-solid fa-circle-right" aria-label="circle-right"></i> &nbsp;For more information: <a href="https://www.pndb.fr/fr/ressources/principes-fair-et-cycle-de-vie-des-donnees">PNDB</a></p>
-</div></div>
-<!-- page 20 -->
-</section>
-<section id="fair-principles" class="slide level2">
-<h2>FAIR principles</h2>
-<div class="columns">
-<div class="column" style="width:60%;">
-<p><br><br></p>
-<p>A set of guiding principles for managing research data to make it <strong>F</strong>indable, <strong>A</strong>ccessible, <strong>I</strong>nteroperable, and <strong>R</strong>eusable by humans and machines<sup>1</sup>.</p>
-<p><strong>This is the way!</strong></p>
-<p><img data-src="images/image-FAIR.png" style="width:50.0%"></p>
-<p><img data-src="images/image-GOFAIR.png" style="width:30.0%"></p>
-<p><i class="fa-solid fa-circle-right" aria-label="circle-right"></i> &nbsp;For more information: <a href="https://www.pndb.fr/fr/ressources/principes-fair-et-cycle-de-vie-des-donnees">PNDB</a></p>
-</div><div class="column right" style="width:40%;">
-<div class="quarto-figure quarto-figure-right">
-<figure>
-<p><img data-src="images/image-FAIRprinciples.jpg" class="quarto-figure quarto-figure-right" style="width:70.0%"></p>
-</figure>
-</div>
-</div></div>
-<!-- page 21 -->
-<aside><ol class="aside-footnotes"><li id="fn21"><p><a href="https://doi.org/10.1038/sdata.2016.18">Wilkinson M. D. et al., 2017</a></p></li></ol></aside></section>
-<section id="fair-principles-1" class="slide level2">
-<h2>FAIR principles</h2>
-<div class="quarto-figure quarto-figure-center">
-<figure>
-<p><img data-src="images/image-Datastandardization.png" class="quarto-figure quarto-figure-center" style="width:80.0%"></p>
-</figure>
-</div>
-<p><i class="fa-solid fa-circle-right" aria-label="circle-right"></i> &nbsp;For more information: <a href="https://www.pndb.fr/fr/outils-services/outils-services-par-etapes/preservation#Standardisation%20des%20%7Bm%C3%A9ta%7Ddonn%C3%A9es">PNDB</a> and <a href="https://www.gbif.org/darwin-core">GBIF</a></p>
 <!-- page 20 -->
 </section>
 <section id="flux-and-stocks" class="slide level2">
@@ -900,6 +791,62 @@
 </tr>
 </tbody>
 </table>
+<!-- xxxx page -->
+</section>
+<section id="a-complex-landscape" class="slide level2">
+<h2>A complex landscape</h2>
+<div class="columns">
+<div class="column" style="width:40%;">
+<p><br></p>
+<ul>
+<li>Diversity of tools and practices (historical practices)</li>
+<li>Different supervisions</li>
+<li>Flow and storage of data and metadata</li>
+<li>Difficulty for data producers to identify the right information systems to deposit their data according to the scopes and themes</li>
+<li>Difficulty for users to know where and how to search for data</li>
+</ul>
+</div><div class="column" style="text-align: right;">
+<p><img data-src="images/garnier-tee.png" style="width:80.0%"> <br> Figure from <a href="https://doi.org/10.1016/j.tree.2025.06.004">Garnier &amp; Pavoine <em>et al.</em>,2025</a></p>
+</div></div>
+</section>
+<section id="a-complex-landscape-1" class="slide level2">
+<h2>A complex landscape</h2>
+<div class="columns">
+<div class="column" style="width:60%;">
+<p><br> PatriNat wrote a document (in french) to support producers and reusers of biodiversity data and metadata in:</p>
+<ul>
+<li>Understanding the landscape (actors, who does what, who is who, etc.)</li>
+<li>Sharing (meta)data (where to deposit them, what types of data, etc.)</li>
+<li>Using the latter via information systems according to the themes and/or target audiences</li>
+</ul>
+<p><br></p>
+<p>The targets of this document are mainly researchers, managers, engineers and data technicians</p>
+</div><div class="column center" style="width:40%;">
+<p><img data-src="images/image-noteflux2023.jpg" style="width:60.0%"></p>
+</div></div>
+<p><br></p>
+<ul>
+<li>Version 1 is available <a href="https://mnhn.hal.science/mnhn-04296424/">here</a></li>
+<li>Version 2 will be available soon in January 2025 <br></li>
+</ul>
+<!-- xxx page -->
+</section>
+<section id="a-complex-landscape-2" class="slide level2">
+<h2>A complex landscape</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="images/image-Flux_dispositifs_SI.png" class="quarto-figure quarto-figure-center" style="width:70.0%"></p>
+</figure>
+</div>
+<!-- xxx page -->
+</section>
+<section id="a-complex-landscape-3" class="slide level2">
+<h2>A complex landscape</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="images/image-logigrammeFluxSI.png" class="quarto-figure quarto-figure-center" style="width:70.0%"></p>
+</figure>
+</div>
 <!-- page 23 -->
 </section>
 <section id="take-home-message" class="slide level2">
@@ -918,7 +865,7 @@
 <p><img data-src="images/image-FAIR.png" style="width:100.0%"> <img data-src="images/image-datalifecycle.png" style="width:100.0%"></p>
 </div></div>
 <!-- page 24 -->
-<aside><ol class="aside-footnotes"><li id="fn22"><p><a href="https://riojournal.com/article/8767">Page (2016)</a></p></li><li id="fn23"><p><a href="https://doi.org/10.1890/1051-0761(1997)007%5B0330:NMFTES%5D2.0.CO;2">Michener <em>et al.</em> (1997)</a></p></li><li id="fn24"><p><a href="https://doi.org/10.1002/eap.1822">Powers &amp; Hampton (2018)</a></p></li><li id="fn25"><p><a href="https://doi.org/10.1002/ece3.9961">Genkins <em>et al.</em> (2016)</a></p></li></ol></aside></section></section>
+<aside><ol class="aside-footnotes"><li id="fn20"><p><a href="https://riojournal.com/article/8767">Page (2016)</a></p></li><li id="fn21"><p><a href="https://doi.org/10.1890/1051-0761(1997)007%5B0330:NMFTES%5D2.0.CO;2">Michener <em>et al.</em> (1997)</a></p></li><li id="fn22"><p><a href="https://doi.org/10.1002/eap.1822">Powers &amp; Hampton (2018)</a></p></li><li id="fn23"><p><a href="https://doi.org/10.1002/ece3.9961">Genkins <em>et al.</em> (2016)</a></p></li></ol></aside></section></section>
 <section>
 <section id="resources" class="title-slide slide level1 center">
 <h1>Resources</h1>
