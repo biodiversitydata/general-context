@@ -2,6 +2,42 @@
 
 <!-- first page -->
 
+## Heterogeneity and loss of information
+
+:::: {.columns}
+
+::: {.column .center width=50%}
+![](images/image-Page2016.png){width=80%}
+:::
+
+::: {.column .center width=50%}
+![](images/image-Michener1997.jpg){width=80%}
+:::
+
+::::
+
+
+:::: {.columns}
+
+::: {.column .center width=50%}
+**Heterogeneity (data types, origin, standards) &<br/>Diversity of "objects" to be linked together**[^1]
+:::
+
+::: {.column .center width=50%}
+**Loss of information over time**[^2]
+:::
+
+::::
+
+
+[^1]: [Page (2016)](https://riojournal.com/article/8767)
+[^2]: [Michener _et al._ (1997)](https://doi.org/10.1890/1051-0761(1997)007[0330:NMFTES]2.0.CO;2)
+
+
+
+<!-- second page -->
+
+
 ## Open Science
 
 **Second French Plan for Open Science**[^1]
@@ -28,123 +64,523 @@
 ::::
 
 
-<!-- second page -->
-
-## Heterogeneity and loss of informations
-
-:::: {.columns}
-
-::: {.column .center width=50%}
-![](images/image-Page2016.png){width=80%}
-:::
-
-::: {.column .center width=50%}
-![](images/image-Michener1997.jpg){width=80%}
-:::
-
-::::
-
-
-:::: {.columns}
-
-::: {.column .center width=50%}
-**Heterogeneity (data types, origin, standards) &<br/>Diversity of "objects" to be linked together**[^2]
-:::
-
-::: {.column .center width=50%}
-**Loss of information over time**[^3]
-:::
-
-::::
-
-
-[^2]: [Page (2016)](https://riojournal.com/article/8767)
-[^3]: [Michener _et al._ (1997)](https://doi.org/10.1890/1051-0761(1997)007[0330:NMFTES]2.0.CO;2)
-
-
 <!-- third page -->
 
 
-## A complex landscape
+## Important keywords
+
+<br/><br/><br/>
+
+:::: {.columns}
+
+::: {.column .center width=25%}
+
+**Data life cycle**
+
+<br/>
+
+![](images/image-datalifecycle.png){width=100%}
+:::
+
+::: {.column .center width=25%}
+**FAIR Principles**
+
+<br/><br/><br/>
+
+![](images/image-FAIR.png){width=100%}
+:::
+
+::: {.column .center width=25%}
+
+**Reproducibility**
+
+<br/>
+
+![](images/reproducible-matrix.jpg){width=100%}
+
+:::
+
+
+::: {.column .center width=25%}
+
+**Flux and stocks of data**
+
+<br/>
+
+![](images/image-Flux_dispositifs_SI.png){width=100%}
+:::
+
+::::
+
+
+
+
+
+
+# Data vs. metadata
+
+<!-- page 9 -->
+
+## Exercise
+
+<br /><br /><br />
+
+#### What kind of **data** / **metadata** are you using for your research?
+
+
+
+<!-- page 10 -->
+
+## Definitions
+
+:::: {.columns}
+
+::: {.column width=33%}
+
+"_Research_ **data** _are defined as factual records in the form of figures, texts, images and sounds which are used as the main sources for scientific research and which the scientific community generally recognizes as being necessary to validate research results_"[^1].
+:::
+
+::: {.column .center width=33%}
+![](images/image_DataMetadata.png){width=100%}
+:::
+
+::: {.column width=33%}
+"**Metadata**, _which can be simply defined as “data about data,” is a way of naming things and representing data and their relationships [...] Metadata is structured information that describes, explains, locates, or otherwise makes it easier to retrieve, use or manage an information resource_"[^2].
+:::
+
+::::
+
+#### **Biodiversity data**
+
+> **Artifacts and symbols** collected, stored, and disseminated in order to document the constituent elements of life, extant or extinct, at **any scale of time and space**. <br />
+> These **elements are biological** and encompass anything that **contributes to the structure and function of life at any scale**, from the microscopic to the level of the planet, and to the **continuation of life, that is, its ability to persist and evolve over time**.
+
+
+
+
+[^1]: [OECD (2007)](https://www.oecd-ilibrary.org/science-and-technology/oecd-principles-and-guidelines-for-access-to-research-data-from-public-funding_9789264034020-en-fr)
+
+[^2]: [Borgman CL (2020)](https://books.openedition.org/oep/14692)
+
+
+<!-- page 12 -->
+
+## Data, datasets, databases and co
+
+
+:::: {.columns}
+
+::: {.column width=45%}
+![](images/data-circles3.png){width=100%}
+
+::: {.small}
+**Source:** Blair J _et al._ (2020) <https://doi.org/10.3897/BDJ.8.e32765>
+:::
+
+:::
+
+::: {.column width=5%}
+:::
+
+::: {.column width=50%}
+
+#### **Legend:** <br/>
+
+(a) **Data** and **metadata** make up (b) **datasets**. Multiple datasets in one location form a (c) **database**. (d) **Aggregators** compile data from many databases. <br/><br/><br/>
+
+**Repackagers** transform data in a way that makes it more accessible for all audiences. **External users** (e.g. scientists, industries, government agencies etc.) access raw data by going through any or all of these data sharing portals.
+
+
+:::
+
+::::
+
+
+## Relational databases
+
+
+:::: {.columns}
+
+::: {.column width=70%}
+
+> A type of database that stores and provides access to data in tables that can be linked to each through shared columns and rows, called relations, with unique identifiers (keys) that show the different relationships between tables. 
+
+<br/>
+
+#### Codd's rules[^1] : <br/>
+
+1. Present the data to the user as relations (a presentation in tabular form, i.e. as a collection of tables with each table consisting of a set of rows and columns); <br/>
+2. Provide relational operators to manipulate the data in tabular form. 
+
+<br/>
+
+Tabular datasheets used to be enough to store ecological data. Nowadays, With the increasing amount of biodiversity and environmental data, the use of relational databases is becoming much more frequent.
+
+:::
+
+::: {.column width=5%}
+:::
+
+::: {.column width=25%}
+![](images/relational-database.png){width=100%}
+
+:::
+
+::::
+
+[^1]: [Date, C. (2005)](https://archive.org/details/databaseindepthr0000date)
+
+
+
+# Data classification(s)
+
+<!-- page 13 -->
+
+## Characterizing data
+
+<br/>
+
+:::: {.columns}
+
+::: {.column width=40%}
+
+![](images/image_DataMetadata.png){width=100%}
+
+:::
+
+::: {.column .center width=60%}
+
+<br><br><br><br><br>
+{{< fa circle-right>}} &nbsp;**Link this information with your biodiversity research projects**
+
+Imagine: you're wondering about the distribution of a given species. 
+
+:::
+::::
+
+
+<!-- page 13 bis -->
+
+## Characterizing data
+
+<br/>
+
+:::: {.columns}
+
+::: {.column width=40%}
+
+![](images/image_DataMetadata.png){width=100%}
+
+:::
+
+::: {.column width=60%}
+
+- **what ** species ? --> observation data: presence/absence, abundance, density, biomass ? 
+
+> but also: what are the intra-population variations ? DNA, trait measurements ? phylogeny ?
+
+- **where** are they spatially ? in which proportions ?
+
+- **when** were they observed or sampled ? repeated measures ? time stamp or global period ?
+
+- **how** were they collected ? biases ? pseudoreplication ?  true absences ?
+
+- **why** and **who** : citizen science ? opportunistic ? funding ? 
+
+:::
+::::
+
+
+
+
+
+<!-- page xx -->
+
+## Exercise
+
+<br /><br /><br />
+
+### **Which data types can you think about? **
+
+
+
+
+
+
+<!-- page xx -->
+
+## Data categories: *by format*
+
+:::: {.columns}
+
+::: {.column width=50%}
+
+According to the EML classification[^1]
+
+- Data Table
+- Spatial raster
+- Spatial vector
+- Databases
+- Other entities
+:::
+
+::: {.column .center width=50%}
+![](images/raster-vector.png){width=100%}
+:::
+
+::::
+
+
+:::: {.columns}
+
+::: {.column width=50%}
+![](images/image-logo-eml.jpg){width=30% fig-align='center'}
+:::
+
+::: {.column width=50%}
+:::
+
+::::
+[^1]: [Matthew B _et al._ (2019)](https://eml.ecoinformatics.org/eml-schema)
+
+
+<!-- page xx -->
+
+## Data categories: *by protocols and methods*
 
 :::: {.columns}
 
 ::: {.column width=30%}
 <br/>
 
-- Diversity of tools and practices (historical practices)
-- Different supervisions
-- Flow and storage of data and metadata
-- Difficulty for data producers to identify the right information systems to deposit their data according to the scopes and themes
-- Difficulty for users to know where and how to search for data
+According to [Kissling WD _et al._ (2018)](https://doi.org/10.1111/brv.12359)
+
+- Inventories (opportunist vs (semi-)protocole)
+- Sensors
+- DNA-based techniques
+- Satellite remote sensing
+- Others (simulated data)
+
 :::
 
 ::: {.column .center width=70%}
-![](images/garnier-tee.png){width=60%}
-Figure from [Garnier & Pavoine _et al._,2025](https://doi.org/10.1016/j.tree.2025.06.004)
+![](images/image-dataType-Kissing2018.jpg){width=100%}
 :::
 
 ::::
 
 
-<!-- fourth page -->
+<!-- page 17 -->
 
-## A complex landscape
+## Data categories: *thematic and/or "other classifications"*
+
+:::: {.columns}
+
+::: {.column width=70%}
+
+- **Longitudinal data**
+
+Repeated measures, such as long term surveys, allowing to look at evolution (of abundances, biomass, etc) over time.
+
+> Time series analyses
+
+:::
+
+::: {.column width=30%}
+
+![](images/time-series.png){width=80%}
+
+:::
+
+::::
+
+- **Spatial data**
+
+Generic term that starts whenever there are spatial coordinates (long/lat) associated with an observation. May also refer to remote sensing images, GIS.
+
+<br>
+
+- **Textual data**
+
+Again a very generic term, ranges from spreadsheets of data occurrences to DNA sequences, and text mining (systematic reviews, web scrapping, etc).
+
+
+<!-- page 14 -->
+## Recap: data classifications
+
+<br/>
+
+:::: {.columns}
+
+::: {.column width=33%}
+
+**Format**[^1]
+
+- Data Table
+- Spatial raster
+- Spatial vector
+- Databases
+- Other entities
+:::
+
+::: {.column width=33%}
+
+**Protocols and methods**[^2]
+
+- Inventories (opportunist vs (semi-)protocole)
+- Sensors
+- DNA-based techniques
+- Satellite remote sensing
+- Others (simulated data)
+
+:::
+
+::: {.column width=33%}
+
+**Thematic and/or "other classifications"**
+
+- Temporal information (e.g. longitudinal data / time series (LTS))
+- Spatial information (spatial data (GIS, occurrences, remote sensing, etc.)
+- Textual data (csv, …)
+- Taxonomic
+- Trait data
+- Non-exhaustive
+:::
+
+::::
+
+
+[^1]: According to the [Ecological Metadata Language (EML)](https://eml.ecoinformatics.org/eml-schema) classification
+[^2]: According to [Kissling *et al.* (2018)](https://doi.org/10.1111/brv.12359)
+
+
+# Frameworks and Good practices
+
+
+<!-- page xx -->
+
+## Frameworks and Good practices
+
+<br/><br/><br/>
+
+:::: {.columns}
+
+::: {.column .center width=25%}
+
+**Data life cycle**
+
+<br/>
+
+![](images/image-datalifecycle.png){width=100%}
+:::
+
+::: {.column .center width=25%}
+**FAIR Principles**
+
+<br/><br/><br/>
+
+![](images/image-FAIR.png){width=100%}
+:::
+
+::: {.column .center width=25%}
+
+**Reproducibility**
+
+<br/>
+
+![](images/reproducible-matrix.jpg){width=100%}
+
+:::
+
+
+::: {.column .center width=25%}
+
+**Flux and stocks of data**
+
+<br/>
+
+![](images/image-Flux_dispositifs_SI.png){width=100%}
+:::
+
+::::
+
+
+
+<!-- page xx -->
+
+## Data life cycle
 
 :::: {.columns}
 
 ::: {.column width=60%}
-<br>
-A note are to support producers and reusers of biodiversity data and metadata in:
 
-- Understanding the landscape (actors, who does what, who is who, etc.)
-- Sharing (meta)data (where to deposit, what types of data, etc.)
-- Using the latter via the complementary of information systems according to the themes and/or target audiences
+![](images/image-datalifecycle.png){width=100%}
+:::
+
+
+::: {.column width=40%}
+<br/><br/><br/>
+
+The data lifecycle is the set of stages of management, conservation and dissemination of research data, associated with research activities.
 
 <br/>
 
-The targets of this note are above all researchers, managers, engineers and data technicians
-:::
+{{< fa circle-right >}} &nbsp;For more information: [PNDB](https://www.pndb.fr/fr/ressources/principes-fair-et-cycle-de-vie-des-donnees)
 
-::: {.column .center width=40%}
-
-![](images/image-noteflux2023.jpg){width=60%}
 :::
 
 ::::
 
-<br/>
-
-- Version 1 is available [here](https://mnhn.hal.science/mnhn-04296424/)
-- Version 2 will be available soon in January 2025
-<br>
 
 
+<!-- page xx -->
 
-<!-- fifth page -->
-
-
-## A complex landscape
-
-![](images/image-Flux_dispositifs_SI.png){width=70% fig-align='center'}
+## FAIR principles
 
 
+:::: {.columns}
+
+::: {.column width=60%}
+
+<br/><br/>
+
+A set of guiding principles for managing research data to make it **F**indable, **A**ccessible, **I**nteroperable, and **R**eusable by humans and machines[^1].
 
 
-<!-- sixth page -->
+**This is the way!**
 
-## A complex landscape
 
-![](images/image-logigrammeFluxSI.png){width=70% fig-align='center'}
+![](images/image-FAIR.png){width=50%}
+
+![](images/image-GOFAIR.png){width=30%}
+
+{{< fa circle-right >}} &nbsp;For more information: [PNDB](https://www.pndb.fr/fr/ressources/principes-fair-et-cycle-de-vie-des-donnees)
+:::
+
+::: {.column .right width=40%}
+
+![](images/image-FAIRprinciples.jpg){width=70% fig-align='right'}
+:::
+
+::::
+
+
+
+[^1]: [Wilkinson M. D. et al., 2017](https://doi.org/10.1038/sdata.2016.18)
+
+
+<!-- page 21 -->
+## FAIR principles
+
+
+![](images/image-Datastandardization.png){width=80% fig-align='center'}
+
+{{< fa circle-right >}} &nbsp;For more information: [PNDB](https://www.pndb.fr/fr/outils-services/outils-services-par-etapes/preservation#Standardisation%20des%20{m%C3%A9ta}donn%C3%A9es) and [GBIF](https://www.gbif.org/darwin-core)
 
 
 # Reproducibility concepts
 
-<!-- seventh page -->
-
-
-
-<!-- page 8 @Nico -->
+<!-- page xxx @Nico -->
 
 ## What is reproducibility?
 
@@ -177,17 +613,17 @@ The targets of this note are above all researchers, managers, engineers and data
 :::: {.columns}
 
 ::: {.column width=50%}
-> Computational reproducibility frequently refers to the ability to generate equivalent analytical outcomes from the same data set using the same code and software[^4].
+> Computational reproducibility frequently refers to the ability to generate equivalent analytical outcomes from the same data set using the same code and software[^1].
 :::
 
 ::: {.column width=50%}
-> [...] all raw data and metadata, code, programming scripts, and bespoke software necessary for fully replicating any analyses that lead to inferences made in a published study[^5].
+> [...] all raw data and metadata, code, programming scripts, and bespoke software necessary for fully replicating any analyses that lead to inferences made in a published study[^2].
 :::
 
 ::::
 
-[^4]: [Powers & Hampton (2018)](https://doi.org/10.1002/eap.1822)
-[^5]: [Genkins _et al._ (2016)](https://doi.org/10.1002/ece3.9961)
+[^1]: [Powers & Hampton (2018)](https://doi.org/10.1002/eap.1822)
+[^2]: [Genkins _et al._ (2016)](https://doi.org/10.1002/ece3.9961)
 
 
 
@@ -323,552 +759,6 @@ Website available at: <https://rdatatoolbox.github.io/>
 
 
 
-# Data vs. metadata
-
-<!-- page 9 -->
-
-## Exercise
-
-{{< fa circle-right>}} &nbsp;What kind of **data** / **metadata** are you using for your research?
-
-<br /><br /><br />
-
-
-:::: {.columns}
-
-::: {.column width=33%}
-![](images/postit.png){width=60% fig-align="center"}
-:::
-
-::: {.column width=33%}
-![](images/postit.png){width=60% fig-align="center"}
-:::
-
-::: {.column width=33%}
-![](images/postit.png){width=60% fig-align="center"}
-:::
-
-::::
-
-
-
-
-<!-- page 10 -->
-
-## Definitions
-
-:::: {.columns}
-
-::: {.column width=33%}
-
-"_Research_ **data** _are defined as factual records in the form of figures, texts, images and sounds which are used as the main sources for scientific research and which the scientific community generally recognizes as being necessary to validate research results_"[^6].
-:::
-
-::: {.column .center width=33%}
-![](images/image_DataMetadata.png){width=100%}
-:::
-
-::: {.column width=33%}
-"**Metadata**, _which can be simply defined as “data about data,” is a way of naming things and representing data and their relationships [...] Metadata is structured information that describes, explains, locates, or otherwise makes it easier to retrieve, use or manage an information resource_"[^7].
-:::
-
-::::
-
-
-:::: {.columns}
-
-::: {.column .center width=33%}
-![](images/image-OECD-Data2007.jpg){width=45%}
-:::
-
-::: {.column width=33%}
-:::
-
-::: {.column .center width=33%}
-![](images/image_Borgman2015.jpg){width=40%}
-:::
-
-::::
-
-
-[^6]: [OECD (2007)](https://www.oecd-ilibrary.org/science-and-technology/oecd-principles-and-guidelines-for-access-to-research-data-from-public-funding_9789264034020-en-fr)
-
-[^7]: [Borgman CL (2020)](https://books.openedition.org/oep/14692)
-
-<!-- page 11 -->
-
-## Defining biodiversity data
-
-:::: {.columns}
-
-::: {.column width=45%}
-> **Artifacts and symbols** collected, stored, and disseminated in order to document the constituent elements of life, extant or extinct, at **any scale of time and space**.
-
-<br />
-
-> These **elements are biological** and encompass anything that **contributes to the structure and function of life at any scale**, from the microscopic to the level of the planet, and to the **continuation of life, that is, its ability to persist and evolve over time**.
-
-:::
-
-::: {.column width=10%}
-:::
-
-::: {.column width=45%}
-![](images/garnier-tee.png)
-:::
-
-::::
-
-
-::: {.small}
-**Source:** Garnier E _et al._ (2025) <https://doi.org/10.1016/j.tree.2025.06.004>
-:::
-
-<!-- page 12 -->
-
-## Data, datasets, databases and co
-
-
-:::: {.columns}
-
-::: {.column width=45%}
-![](images/data-circles.png){width=80%}
-
-:::
-
-::: {.column width=10%}
-:::
-
-::: {.column width=45%}
-
-<br/>
-<br/>
-<br/>
-
-**Legend:** (a) Data and metadata make up (b) datasets. Multiple datasets in one location form a (c) database. (d) Aggregators compile data from many databases and (e) repackagers transform data in a way that makes it more accessible for all audiences (i.e. lay and professional). (f) External users (e.g. scientists, industries, government agencies etc.) access raw data by (g) going through any or all of these data sharing portals.
-
-:::
-
-::::
-
-<br />
-
-::: {.small}
-**Source:** Blair J _et al._ (2020) <https://doi.org/10.3897/BDJ.8.e32765>
-:::
-
-
-# Data classification(s)
-
-
-
-<!-- page 13 -->
-
-## Exercise
-
-{{< fa circle-right>}} &nbsp;How would you classify data?
-
-<br /><br /><br />
-
-
-:::: {.columns}
-
-::: {.column width=33%}
-![](images/postit.png){width=60% fig-align="center"}
-:::
-
-::: {.column width=33%}
-![](images/postit.png){width=60% fig-align="center"}
-:::
-
-::: {.column width=33%}
-![](images/postit.png){width=60% fig-align="center"}
-:::
-
-::::
-
-
-
-<!-- page 13 -->
-
-## Characterizing data
-
-<br/>
-
-:::: {.columns}
-
-::: {.column width=50%}
-
-![](images/image_DataMetadata.png){width=80%}
-
-:::
-
-::: {.column .center width=50%}
-
-<br><br><br><br><br>
-{{< fa circle-right>}} &nbsp;**Link this information with your biodiversity research projects**
-
-Imagine: you're wondering about the distribution of a given species. 
-
-:::
-::::
-
-
-<!-- page 13 bis -->
-
-## Characterizing data
-
-<br/>
-
-:::: {.columns}
-
-::: {.column width=50%}
-
-![](images/image_DataMetadata.png){width=80%}
-
-:::
-
-::: {.column width=50%}
-
-- **what ** species ? --> observation data: presence/absence, abundance, density, biomass ? 
-
-> but also: what are the intra-population variations ? DNA, trait measurements ? phylogeny ?
-
-- **where** are they spatially ? in which proportions ?
-
-- **when** were they observed or sampled ? repeated measures ? time stamp or global period ?
-
-- **how** were they collected ? biases ? pseudoreplication ?  true absences ?
-
-- **why** and **who** : citizen science ? opportunistic ? funding ? 
-
-:::
-::::
-
-<!-- page 14 -->
-
-## Classifying data by...
-
-<br/>
-
-:::: {.columns}
-
-::: {.column width=33%}
-
-**Format**[^8]
-
-- Data Table
-- Spatial raster
-- Spatial vector
-- Databases
-- Other entities
-:::
-
-::: {.column width=33%}
-
-
-:::
-
-::: {.column width=33%}
-
-
-:::
-
-::::
-
-
-[^8]: According to the [Ecological Metadata Language (EML)](https://eml.ecoinformatics.org/eml-schema) classification
-
-<!-- page 14 -->
-
-## Classifying data by...
-
-<br/>
-
-:::: {.columns}
-
-::: {.column width=33%}
-
-**Format**[^8]
-
-- Data Table
-- Spatial raster
-- Spatial vector
-- Databases
-- Other entities
-:::
-
-::: {.column width=33%}
-
-**Protocols and methods**[^9]
-
-- Citizen science
-- Sensors
-- DNA-based techniques
-- Satellite remote sensing
-- Others (simulated data)
-:::
-
-::: {.column width=33%}
-
-
-:::
-
-::::
-
-
-[^8]: According to the [Ecological Metadata Language (EML)](https://eml.ecoinformatics.org/eml-schema) classification
-[^9]: According to [Kissling *et al.* (2018)](https://doi.org/10.1111/brv.12359)
-
-<!-- page 14 -->
-## Classifying data by...
-
-<br/>
-
-:::: {.columns}
-
-::: {.column width=33%}
-
-**Format**[^8]
-
-- Data Table
-- Spatial raster
-- Spatial vector
-- Databases
-- Other entities
-:::
-
-::: {.column width=33%}
-
-**Protocols and methods**[^9]
-
-- Citizen science
-- Sensors
-- DNA-based techniques
-- Satellite remote sensing
-- Others (simulated data)
-:::
-
-::: {.column width=33%}
-
-**Thematic and/or "other classifications"**
-
-- Temporal information (e.g. longitudinal data / time series (LTS))
-- Spatial information (spatial data (GIS, occurrences, remote sensing, etc.)
-- Textual data (csv, …)
-- Taxonomic
-- Trait data
-- Non-exhaustive
-:::
-
-::::
-
-
-[^8]: According to the [Ecological Metadata Language (EML)](https://eml.ecoinformatics.org/eml-schema) classification
-[^9]: According to [Kissling *et al.* (2018)](https://doi.org/10.1111/brv.12359)
-
-
-
-<!-- page 15 -->
-
-## Data categories: *by format*
-
-:::: {.columns}
-
-::: {.column width=50%}
-
-According to the EML classification[^10]
-
-- Data Table
-- Spatial raster
-- Spatial vector
-- Databases
-- Other entities
-:::
-
-::: {.column .center width=50%}
-![](images/image-eml-semantics.png){width=100%}
-:::
-
-::::
-
-
-:::: {.columns}
-
-::: {.column width=50%}
-![](images/image-logo-eml.jpg){width=30% fig-align='center'}
-:::
-
-::: {.column width=50%}
-:::
-
-::::
-[^10]: [Matthew B _et al._ (2019)](https://eml.ecoinformatics.org/eml-schema)
-
-
-<!-- page 16 -->
-
-## Data categories: *by type*
-
-:::: {.columns}
-
-::: {.column width=30%}
-<br/>
-
-According to [Kissling WD _et al._ (2018)](https://doi.org/10.1111/brv.12359)
-
-- Citizen science
-- Sensors
-- DNA-based techniques
-- Satellite remote sensing
-- Others (simulated data)
-
-:::
-
-::: {.column .center width=70%}
-![](images/image-dataType-Kissing2018.jpg){width=100%}
-:::
-
-::::
-
-
-<!-- page 17 -->
-
-## Data categories: *thematic and/or "other classifications"*
-
-- **Longitudinal data**
-
-Repeated measures, such as long term surveys, allowing to look at evolution (of abundances, biomass, etc) over time.
-
-> Time series analyses
-
-
-- **Spatial data**
-
-Generic term that starts whenever there are spatial coordinates (long/lat) associated with an observation. May also refer to remote sensing images, GIS.
-
-<br>
-
-- **Textual data**
-
-Again a very generic term, ranges from spreadsheets of data occurrences to DNA sequences, and text mining (systematic reviews, web scrapping, etc).
-
-
-
-# Frameworks and Good practices
-
-
-<!-- page 18 -->
-
-## Frameworks and Good practices
-
-<br/>
-
-:::: {.columns}
-
-::: {.column .center width=33%}
-
-**Data life cycle**
-
-<br/>
-
-![](images/image-datalifecycle.png){width=100%}
-:::
-
-::: {.column .center width=33%}
-**FAIR Principles**
-
-<br/><br/><br/>
-
-![](images/image-FAIR.png){width=100%}
-:::
-
-::: {.column .center width=33%}
-
-**Flux and stocks of data**
-
-<br/>
-
-![](images/image-Flux_dispositifs_SI.png){width=100%}
-:::
-
-::::
-
-
-
-<!-- page 18 -->
-
-## Data life cycle
-
-:::: {.columns}
-
-::: {.column width=60%}
-
-![](images/image-datalifecycle.png){width=100%}
-:::
-
-
-::: {.column width=40%}
-<br/><br/><br/>
-
-The data lifecycle is the set of stages of management, conservation and dissemination of research data, associated with research activities.
-
-<br/>
-
-{{< fa circle-right >}} &nbsp;For more information: [PNDB](https://www.pndb.fr/fr/ressources/principes-fair-et-cycle-de-vie-des-donnees)
-
-:::
-
-::::
-
-
-
-<!-- page 20 -->
-
-## FAIR principles
-
-
-:::: {.columns}
-
-::: {.column width=60%}
-
-<br/><br/>
-
-A set of guiding principles for managing research data to make it **F**indable, **A**ccessible, **I**nteroperable, and **R**eusable by humans and machines[^11].
-
-
-**This is the way!**
-
-
-![](images/image-FAIR.png){width=50%}
-
-![](images/image-GOFAIR.png){width=30%}
-
-{{< fa circle-right >}} &nbsp;For more information: [PNDB](https://www.pndb.fr/fr/ressources/principes-fair-et-cycle-de-vie-des-donnees)
-:::
-
-::: {.column .right width=40%}
-
-![](images/image-FAIRprinciples.jpg){width=70% fig-align='right'}
-:::
-
-::::
-
-
-
-[^11]: [Wilkinson M. D. et al., 2017](https://doi.org/10.1038/sdata.2016.18)
-
-
-<!-- page 21 -->
-## FAIR principles
-
-
-![](images/image-Datastandardization.png){width=80% fig-align='center'}
-
-{{< fa circle-right >}} &nbsp;For more information: [PNDB](https://www.pndb.fr/fr/outils-services/outils-services-par-etapes/preservation#Standardisation%20des%20{m%C3%A9ta}donn%C3%A9es) and [GBIF](https://www.gbif.org/darwin-core)
-
-
-
 
 <!-- page 20 -->
 ## Flux and stocks
@@ -921,12 +811,90 @@ It is recommended to prioritize deposits in **trusted thematic repositories** (e
 
 : Table 1: Examples of biodiversity and environmental data repositories, from [Ouvrir la science (2024)](https://www.ouvrirlascience.fr/selectionner-un-entrepot-thematique-de-confiance-pour-le-depot-de-donnees-methodologie-et-analyse-de-loffre-existante/) and adapted
 
+
+
+
+<!-- xxxx page -->
+
+## A complex landscape
+
+:::: {.columns}
+
+::: {.column width=40%}
+<br/>
+
+- Diversity of tools and practices (historical practices)
+- Different supervisions
+- Flow and storage of data and metadata
+- Difficulty for data producers to identify the right information systems to deposit their data according to the scopes and themes
+- Difficulty for users to know where and how to search for data
+:::
+
+::: {.column width=60% style="text-align: right;"}
+![](images/garnier-tee.png){width=80%}
+<br/>
+Figure from [Garnier & Pavoine _et al._,2025](https://doi.org/10.1016/j.tree.2025.06.004)
+:::
+
+::::
+
+
+
+
+## A complex landscape
+
+:::: {.columns}
+
+::: {.column width=60%}
+<br>
+PatriNat wrote a document (in french) to support producers and reusers of biodiversity data and metadata in:
+
+- Understanding the landscape (actors, who does what, who is who, etc.)
+- Sharing (meta)data (where to deposit them, what types of data, etc.)
+- Using the latter via information systems according to the themes and/or target audiences
+
+<br/>
+
+The targets of this document are mainly researchers, managers, engineers and data technicians
+:::
+
+::: {.column .center width=40%}
+
+![](images/image-noteflux2023.jpg){width=60%}
+:::
+
+::::
+
+<br/>
+
+- Version 1 is available [here](https://mnhn.hal.science/mnhn-04296424/)
+- Version 2 will be available soon in January 2025
+<br>
+
+
+
+<!-- xxx page -->
+
+
+## A complex landscape
+
+![](images/image-Flux_dispositifs_SI.png){width=70% fig-align='center'}
+
+
+
+
+<!-- xxx page -->
+
+## A complex landscape
+
+![](images/image-logigrammeFluxSI.png){width=70% fig-align='center'}
+
 <!-- page 23 -->
 ## Take home message
 
-- **Heterogeneity** (data types, origin, standards) & **diversity** of "objects" to be linked together[^2]
-- **Loss of information** over time[^3]
-- Toward a better **open science** and **reproducibility** [^4] [^5]
+- **Heterogeneity** (data types, origin, standards) & **diversity** of "objects" to be linked together[^1]
+- **Loss of information** over time[^2]
+- Toward a better **open science** and **reproducibility** [^3] [^4]
 
 :::: {.columns}
 
@@ -950,10 +918,10 @@ It is recommended to prioritize deposits in **trusted thematic repositories** (e
 
 ::::
 
-[^2]: [Page (2016)](https://riojournal.com/article/8767)
-[^3]: [Michener _et al._ (1997)](https://doi.org/10.1890/1051-0761(1997)007[0330:NMFTES]2.0.CO;2)
-[^4]: [Powers & Hampton (2018)](https://doi.org/10.1002/eap.1822)
-[^5]: [Genkins _et al._ (2016)](https://doi.org/10.1002/ece3.9961)
+[^1]: [Page (2016)](https://riojournal.com/article/8767)
+[^2]: [Michener _et al._ (1997)](https://doi.org/10.1890/1051-0761(1997)007[0330:NMFTES]2.0.CO;2)
+[^3]: [Powers & Hampton (2018)](https://doi.org/10.1002/eap.1822)
+[^4]: [Genkins _et al._ (2016)](https://doi.org/10.1002/ece3.9961)
 
 
 <!-- page 24 -->
