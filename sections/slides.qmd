@@ -40,11 +40,11 @@
 
 ## Open Science
 
-**Second French Plan for Open Science**[^1]
+**Second French Plan for Open Science**[^french-plan]
 
 > France is committed to ensuring that the results of scientific research are open to all, researchers, companies and citizens, without hindrance, without delay, without payment.
 
-[^1]: [Second French Plan for Open Science](https://www.ouvrirlascience.fr/deuxieme-plan-national-pour-la-science-ouverte-pnso/)
+[^french-plan]: [Second French Plan for Open Science](https://www.ouvrirlascience.fr/deuxieme-plan-national-pour-la-science-ouverte-pnso/)
 
 :::: {.columns}
 
@@ -55,10 +55,10 @@
 ::: {.column width=60%}
 <br/><br/><br/>
 
-- **Axe 1 :** Generalize open access to publications
-- **Axe 2 :** Structure, share and open research data
-- **Axe 3 :** Open and promote source codes produced by research
-- **Axe 4 :** Transforming practices to make open science the default principle
+- **1.** Generalize open access to publications
+- **2.** Structure, share and open research data
+- **3.** Open and promote source codes produced by research
+- **4.** Transforming practices to make open science the default principle
 :::
 
 ::::
@@ -135,48 +135,52 @@
 
 :::: {.columns}
 
-::: {.column width=33%}
+::: {.column width=35%}
 
-"_Research_ **data** _are defined as factual records in the form of figures, texts, images and sounds which are used as the main sources for scientific research and which the scientific community generally recognizes as being necessary to validate research results_"[^1].
+> Research **data** are defined as factual records in the form of figures, 
+> texts, images and sounds which are used as the main sources for scientific 
+> research and which the scientific community generally recognizes as being 
+> necessary to validate research results[^oecd].
 :::
 
-::: {.column .center width=33%}
+::: {.column .center width=30%}
 ![](images/image_DataMetadata.png){width=100%}
 :::
 
-::: {.column width=33%}
-"**Metadata**, _which can be simply defined as “data about data,” is a way of naming things and representing data and their relationships [...] Metadata is structured information that describes, explains, locates, or otherwise makes it easier to retrieve, use or manage an information resource_"[^2].
+::: {.column width=35%}
+> **Metadata**, which can be simply defined as **data about data**, is a way of 
+> naming things and representing data and their relationships [...] Metadata is 
+> structured information that describes, explains, locates, or otherwise makes 
+> it easier to retrieve, use or manage an information resource[^borgman].
 :::
 
 ::::
 
 #### **Biodiversity data**
 
-> **Artifacts and symbols** collected, stored, and disseminated in order to document the constituent elements of life, extant or extinct, at **any scale of time and space**. <br />
+> **Artifacts** and **symbols** collected, stored, and disseminated in order to 
+> document the constituent elements of life, extant or extinct, 
+> at **any scale** of time and space. <br /><br />
 > These **elements are biological** and encompass anything that **contributes to the structure and function of life at any scale**, from the microscopic to the level of the planet, and to the **continuation of life, that is, its ability to persist and evolve over time**.
 
 
 
 
-[^1]: [OECD (2007)](https://www.oecd-ilibrary.org/science-and-technology/oecd-principles-and-guidelines-for-access-to-research-data-from-public-funding_9789264034020-en-fr)
+[^oecd]: [OECD (2007)](https://www.oecd-ilibrary.org/science-and-technology/oecd-principles-and-guidelines-for-access-to-research-data-from-public-funding_9789264034020-en-fr)
 
-[^2]: [Borgman CL (2020)](https://books.openedition.org/oep/14692)
+[^borgman]: [Borgman (2020)](https://books.openedition.org/oep/14692)
 
 
 <!-- page 12 -->
 
 ## Data, datasets, databases and co
 
+<br>
 
 :::: {.columns}
 
 ::: {.column width=45%}
 ![](images/data-circles3.png){width=100%}
-
-::: {.small}
-**Source:** Blair J _et al._ (2020) <https://doi.org/10.3897/BDJ.8.e32765>
-:::
-
 :::
 
 ::: {.column width=5%}
@@ -184,16 +188,26 @@
 
 ::: {.column width=50%}
 
-#### **Legend:** <br/>
+<br />
 
-(a) **Data** and **metadata** make up (b) **datasets**. Multiple datasets in one location form a (c) **database**. (d) **Aggregators** compile data from many databases. <br/><br/><br/>
 
-**Repackagers** transform data in a way that makes it more accessible for all audiences. **External users** (e.g. scientists, industries, government agencies etc.) access raw data by going through any or all of these data sharing portals.
+- **(a)** **Data** and **metadata** make up **(b)** **datasets**. 
+- Multiple datasets in one location form a **(c)** **database**. 
+- **(d)** **Aggregators** compile data from many databases. <br/><br/><br/>
 
+
+- **Repackagers** transform data in a way that makes it more accessible for all audiences.
+- **External users** (e.g. scientists, industries, government agencies etc.) access raw data by going through any or all of these data sharing portals.
 
 :::
 
 ::::
+
+<br />
+
+::: {.citation}
+**Source:** [Blair _et al._ (2020)](https://doi.org/10.3897/BDJ.8.e32765)
+:::
 
 
 ## Relational databases
@@ -203,18 +217,22 @@
 
 ::: {.column width=70%}
 
-> A type of database that stores and provides access to data in tables that can be linked to each through shared columns and rows, called relations, with unique identifiers (keys) that show the different relationships between tables. 
+> A type of database that stores and provides access to data in tables that can 
+> be linked to each through shared columns and rows, called **relations**, with 
+> **unique identifiers** (keys) that show the different relationships between tables. 
 
 <br/>
 
-#### Codd's rules[^1] : <br/>
+#### Codd's rules[^codd]: <br/>
 
 1. Present the data to the user as relations (a presentation in tabular form, i.e. as a collection of tables with each table consisting of a set of rows and columns); <br/>
 2. Provide relational operators to manipulate the data in tabular form. 
 
 <br/>
 
-Tabular datasheets used to be enough to store ecological data. Nowadays, With the increasing amount of biodiversity and environmental data, the use of relational databases is becoming much more frequent.
+**Tabular datasheets** used to be enough to store ecological data. Nowadays, 
+with the increasing amount of biodiversity and environmental data, 
+the use of **relational databases** is becoming much more frequent.
 
 :::
 
@@ -228,7 +246,7 @@ Tabular datasheets used to be enough to store ecological data. Nowadays, With th
 
 ::::
 
-[^1]: [Date, C. (2005)](https://archive.org/details/databaseindepthr0000date)
+[^codd]: [Date (2005)](https://archive.org/details/databaseindepthr0000date)
 
 
 
@@ -275,17 +293,17 @@ Imagine: you're wondering about the distribution of a given species.
 
 ::: {.column width=60%}
 
-- **what ** species ? --> observation data: presence/absence, abundance, density, biomass ? 
+- **What** species?
+  - Observation data: presence/absence, abundance, density, biomass?
+  - What are the intra-population variations? DNA, trait measurements? Phylogeny?
 
-> but also: what are the intra-population variations ? DNA, trait measurements ? phylogeny ?
+- **Where** are they spatially? In which proportions?
 
-- **where** are they spatially ? in which proportions ?
+- **When** were they observed or sampled? Repeated measures? Time stamp or global period?
 
-- **when** were they observed or sampled ? repeated measures ? time stamp or global period ?
+- **How** were they collected? Biases? Pseudoreplication? True absences?
 
-- **how** were they collected ? biases ? pseudoreplication ?  true absences ?
-
-- **why** and **who** : citizen science ? opportunistic ? funding ? 
+- **Why** and **Who**? Citizen science? Opportunistic? Funding? 
 
 :::
 ::::
@@ -300,7 +318,7 @@ Imagine: you're wondering about the distribution of a given species.
 
 <br /><br /><br />
 
-### **Which data types can you think about? **
+#### Which **data types** can you think about?
 
 
 
@@ -309,13 +327,13 @@ Imagine: you're wondering about the distribution of a given species.
 
 <!-- page xx -->
 
-## Data categories: *by format*
+## Data classification - By format
 
 :::: {.columns}
 
 ::: {.column width=50%}
 
-According to the EML classification[^1]
+According to the EML classification[^matthew]
 
 - Data Table
 - Spatial raster
@@ -341,19 +359,21 @@ According to the EML classification[^1]
 :::
 
 ::::
-[^1]: [Matthew B _et al._ (2019)](https://eml.ecoinformatics.org/eml-schema)
+[^matthew]: [Matthew _et al._ (2019)](https://eml.ecoinformatics.org/eml-schema)
 
 
 <!-- page xx -->
 
-## Data categories: *by protocols and methods*
+## Data classification - By protocols and methods
 
 :::: {.columns}
 
 ::: {.column width=30%}
 <br/>
 
-According to [Kissling WD _et al._ (2018)](https://doi.org/10.1111/brv.12359)
+::: {.citationn}
+According to [Kissling _et al._ (2018)](https://doi.org/10.1111/brv.12359)
+:::
 
 - Inventories (opportunist vs (semi-)protocole)
 - Sensors
@@ -372,7 +392,7 @@ According to [Kissling WD _et al._ (2018)](https://doi.org/10.1111/brv.12359)
 
 <!-- page 17 -->
 
-## Data categories: *thematic and/or "other classifications"*
+## Data classification - By thematic and others
 
 :::: {.columns}
 
@@ -406,7 +426,7 @@ Again a very generic term, ranges from spreadsheets of data occurrences to DNA s
 
 
 <!-- page 14 -->
-## Recap: data classifications
+## Data classification - Recap
 
 <br/>
 
@@ -414,7 +434,7 @@ Again a very generic term, ranges from spreadsheets of data occurrences to DNA s
 
 ::: {.column width=33%}
 
-**Format**[^1]
+**Format**[^eml]
 
 - Data Table
 - Spatial raster
@@ -425,7 +445,7 @@ Again a very generic term, ranges from spreadsheets of data occurrences to DNA s
 
 ::: {.column width=33%}
 
-**Protocols and methods**[^2]
+**Protocols and methods**[^kissling]
 
 - Inventories (opportunist vs (semi-)protocole)
 - Sensors
@@ -437,7 +457,7 @@ Again a very generic term, ranges from spreadsheets of data occurrences to DNA s
 
 ::: {.column width=33%}
 
-**Thematic and/or "other classifications"**
+**Thematic and/or other classifications**
 
 - Temporal information (e.g. longitudinal data / time series (LTS))
 - Spatial information (spatial data (GIS, occurrences, remote sensing, etc.)
@@ -450,8 +470,8 @@ Again a very generic term, ranges from spreadsheets of data occurrences to DNA s
 ::::
 
 
-[^1]: According to the [Ecological Metadata Language (EML)](https://eml.ecoinformatics.org/eml-schema) classification
-[^2]: According to [Kissling *et al.* (2018)](https://doi.org/10.1111/brv.12359)
+[^eml]: [Ecological Metadata Language (EML)](https://eml.ecoinformatics.org/eml-schema)
+[^kissling]: [Kissling *et al.* (2018)](https://doi.org/10.1111/brv.12359)
 
 
 # Frameworks and Good practices
@@ -544,10 +564,12 @@ The data lifecycle is the set of stages of management, conservation and dissemin
 
 <br/><br/>
 
-A set of guiding principles for managing research data to make it **F**indable, **A**ccessible, **I**nteroperable, and **R**eusable by humans and machines[^1].
+A set of guiding principles for managing research data to make it 
+**F**indable, **A**ccessible, **I**nteroperable, and **R**eusable by 
+humans and machines[^wilkinson].
 
 
-**This is the way!**
+<br/>
 
 
 ![](images/image-FAIR.png){width=50%}
@@ -566,7 +588,7 @@ A set of guiding principles for managing research data to make it **F**indable, 
 
 
 
-[^1]: [Wilkinson M. D. et al., 2017](https://doi.org/10.1038/sdata.2016.18)
+[^wilkinson]: [Wilkinson _et al._ (2017)](https://doi.org/10.1038/sdata.2016.18)
 
 
 <!-- page 21 -->
@@ -613,17 +635,19 @@ A set of guiding principles for managing research data to make it **F**indable, 
 :::: {.columns}
 
 ::: {.column width=50%}
-> Computational reproducibility frequently refers to the ability to generate equivalent analytical outcomes from the same data set using the same code and software[^1].
+> Computational reproducibility frequently refers to the ability to generate 
+> equivalent analytical outcomes from the same data set using the same code and software[^powers].
 :::
 
 ::: {.column width=50%}
-> [...] all raw data and metadata, code, programming scripts, and bespoke software necessary for fully replicating any analyses that lead to inferences made in a published study[^2].
+> [...] all raw data and metadata, code, programming scripts, and bespoke 
+> software necessary for fully replicating any analyses that lead to inferences made in a published study[^genkins].
 :::
 
 ::::
 
-[^1]: [Powers & Hampton (2018)](https://doi.org/10.1002/eap.1822)
-[^2]: [Genkins _et al._ (2016)](https://doi.org/10.1002/ece3.9961)
+[^powers]: [Powers & Hampton (2018)](https://doi.org/10.1002/eap.1822)
+[^genkins]: [Genkins _et al._ (2016)](https://doi.org/10.1002/ece3.9961)
 
 
 
@@ -754,7 +778,7 @@ According to Wilson _et al._ (2017)[^wilson], good practices for a better reprod
 <br>
 <br>
 
-Website available at: <https://rdatatoolbox.github.io/>
+Website available at: <https://rdatatoolbox.github.io>
 
 
 
@@ -800,18 +824,20 @@ It is recommended to prioritize deposits in **trusted thematic repositories** (e
 
 ## Flux and stocks
 
-| Repositories names    | Supporting by    | thematic, institutional, generic    | disciplinary fields    | Accepted data (keywords)   | embargo    | Persistent identifier    | Volume limit    |
-|:------------|:-----------:|------------:|------------:|------------:|------------:|------------:|------------:|
-| [InDoRES](https://www.indores.fr/) | CNRS-Ecology, MNHN | thematic ( and institutional) | Ecology, Environment, Bio-archaeology | Environmental, ecological and geographical data | yes | DOI  |2 GB per data set but planned to increase to 4 or 5 GB soon  |
-| [EaSy Data](https://www.easydata.earth/) | Data Terra, BRGM | thematic | Earth and Environmental Sciences | Long tail data from the earth system and environment (example: project issues) | yes (2 years max.) | DOI  | 5 GB per file, 100 GB per deposit. Possibility to make the request if larger volume  |
-| [SEANOE](https://www.seanoe.org/) | Ifremer | thematic (and institutional) | Oceanography | Georeferenced marine data | yes (2 years max.) | DOI  | 100 GB  |
-| [Data SUD](https://dataverse.ird.fr/) | IRD | institutional | all fields covered by IRD agents | ??? | ???  | DOI  | ???  |
-| [GBIF](https://www.gbif.org/) | the international GBIF community | thematic | Life sciences, Biodiversity, Animal biology, Plant biology, Ecology, Environment; Ecosystems | Taxa, occurrence data, sampling data, all standardized according to Darwin core or ABCD standards. | yes | DOI  | no  |
-| [Recherche Data Gouv](https://recherche.data.gouv.fr/fr/page/entrepot-recherche-data-gouv) | Recherche Data Gouv | generic | all fields | all | yes | DOI  | ???  |
+<br/>
 
-: Table 1: Examples of biodiversity and environmental data repositories, from [Ouvrir la science (2024)](https://www.ouvrirlascience.fr/selectionner-un-entrepot-thematique-de-confiance-pour-le-depot-de-donnees-methodologie-et-analyse-de-loffre-existante/) and adapted
+| Repository    | Supporting by    | Type    | Disciplinary fields    | Accepted data (keywords)   | Embargo    | Persistent identifier    | Volume limit    |
+|:------------|:-----------:|:-----------:|:-----------|:-----------|:-----------:|:-----------:|:-----------|
+| [InDoRES](https://www.indores.fr/) | CNRS-Ecology, MNHN | Thematic & Institutional | Ecology, Environment, Bio-archaeology | Environmental, ecological and geographical data | Yes | DOI  |2 GB per data set  |
+| [EaSy Data](https://www.easydata.earth/) | Data Terra, BRGM | Thematic | Earth and Environmental Sciences | Long tail data from the earth system and environment (example: project issues) | Yes<br/>(< 2 yr) | DOI  | 5 GB per file, 100 GB per deposit  |
+| [SEANOE](https://www.seanoe.org/) | Ifremer | Thematic & Institutional | Oceanography | Georeferenced marine data | Yes<br/>(< 2 yr) | DOI  | 100 GB  |
+| [Data SUD](https://dataverse.ird.fr/) | IRD | Institutional | All fields covered by IRD agents | ??? | ???  | DOI  | ???  |
+| [GBIF](https://www.gbif.org/) | International GBIF community | Thematic | Life sciences, Biodiversity, Animal biology, Plant biology, Ecology, Environment; Ecosystems | Taxa, occurrence data, sampling data, all standardized according to Darwin core or ABCD standards. | Yes | DOI  | no  |
+| [Recherche Data Gouv](https://recherche.data.gouv.fr/fr/page/entrepot-recherche-data-gouv) | Recherche Data Gouv | Generic | All fields | All | Yes | DOI  | ???  |
 
+: Table 1: Examples of biodiversity and environmental data repositories[^ouvrir]
 
+[^ouvrir]: Adapted from [Ouvrir la science (2024)](https://www.ouvrirlascience.fr/selectionner-un-entrepot-thematique-de-confiance-pour-le-depot-de-donnees-methodologie-et-analyse-de-loffre-existante/)
 
 
 <!-- xxxx page -->
@@ -832,8 +858,11 @@ It is recommended to prioritize deposits in **trusted thematic repositories** (e
 
 ::: {.column width=60% style="text-align: right;"}
 ![](images/garnier-tee.png){width=80%}
-<br/>
-Figure from [Garnier & Pavoine _et al._,2025](https://doi.org/10.1016/j.tree.2025.06.004)
+
+::: {.citation .center}
+Figure from [Garnier & Pavoine _et al._ (2025)](https://doi.org/10.1016/j.tree.2025.06.004)
+:::
+
 :::
 
 ::::
@@ -894,7 +923,7 @@ The targets of this document are mainly researchers, managers, engineers and dat
 
 - **Heterogeneity** (data types, origin, standards) & **diversity** of "objects" to be linked together[^1]
 - **Loss of information** over time[^2]
-- Toward a better **open science** and **reproducibility** [^3] [^4]
+- Toward a better **open science** and **reproducibility** [^3]^,^ [^4]
 
 :::: {.columns}
 
@@ -918,8 +947,6 @@ The targets of this document are mainly researchers, managers, engineers and dat
 
 ::::
 
-[^1]: [Page (2016)](https://riojournal.com/article/8767)
-[^2]: [Michener _et al._ (1997)](https://doi.org/10.1890/1051-0761(1997)007[0330:NMFTES]2.0.CO;2)
 [^3]: [Powers & Hampton (2018)](https://doi.org/10.1002/eap.1822)
 [^4]: [Genkins _et al._ (2016)](https://doi.org/10.1002/ece3.9961)
 
@@ -938,7 +965,7 @@ The targets of this document are mainly researchers, managers, engineers and dat
 
 **FRB-CESAB**
 
-- [Publication](https://www.fondationbiodiversite.fr/en/cesab-scientific-publications/)
+- [Publications](https://www.fondationbiodiversite.fr/en/cesab-scientific-publications/)
 
 - [Tools and databases](https://frbcesab.github.io)
 
@@ -966,7 +993,7 @@ The targets of this document are mainly researchers, managers, engineers and dat
 
 - [THEIA Data Access](https://catalogue.theia.data-terra.org/)
 
-- [Data Terra Tools and services](https://www.data-terra.org/donnees-services/acces-rapide/)
+- [Data Terra Tools & services](https://www.data-terra.org/donnees-services/acces-rapide/)
 
 ![](images/image-logo-dataterra2025.jpg){width=50%}
 ![](images/image-logo-pndb.jpg){width=25%}
@@ -980,14 +1007,13 @@ The targets of this document are mainly researchers, managers, engineers and dat
 
 - [Resources](https://www.gbif.org/resource/search)
 
-- [data use clubs](https://www.gbif.org/composition/5klbauKUkbb4Wm27Ls5uYV/data-use-club)
+- [Data use clubs](https://www.gbif.org/composition/5klbauKUkbb4Wm27Ls5uYV/data-use-club)
 
 - [Darwin core standard](https://www.gbif.org/darwin-core)
 
 - [Trainings](https://www.gbif.org/training)
 
 ![](images/image-logo-gbif-france.png){width=60%}
-
 ![](images/image-logo-gbif.png){width=100%}
 :::
 ::: {.column width=25%}
