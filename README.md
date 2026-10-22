@@ -82,7 +82,7 @@ To understand the file organisation of this repository, please read this [Wiki](
 
 ## Citation
 
-Norvez O, Pamerlon S & Casajus N (2025) General context: Open science, Data lifecycle & FAIR principles. Online presentation available at <https://github.com/biodiversitydata/general-context/>.
+Norvez O, Pamerlon S & Casajus N (2026) _General context: Open science, Data lifecycle & FAIR principles_. Online presentation available at <https://github.com/biodiversitydata/general-context/>.
 
 
 ## Contributing
