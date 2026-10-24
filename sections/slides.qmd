@@ -48,17 +48,17 @@
 
 :::: {.columns}
 
-::: {.column width=40%}
+::: {.column .center width=40%}
 ![](images/logo-PNSO2.png){width=60%}
 :::
 
 ::: {.column width=60%}
-<br/><br/><br/>
+<br/><br/><br/><br/><br/>
 
-- **1.** Generalize open access to publications
-- **2.** Structure, share and open research data
-- **3.** Open and promote source codes produced by research
-- **4.** Transforming practices to make open science the default principle
+**1.** Generalize open access to publications<br>
+**2.** Structure, share and open research data<br>
+**3.** Open and promote source codes produced by research<br>
+**4.** Transforming practices to make open science the default principle
 :::
 
 ::::
@@ -66,55 +66,48 @@
 
 <!-- third page -->
 
-
-## Important keywords
-
-<br/><br/><br/>
+## Important concepts
 
 :::: {.columns}
 
-::: {.column .center width=25%}
-
+::: {.column .center width=45%}
 **Data life cycle**
 
-<br/>
-
-![](images/image-datalifecycle.png){width=100%}
+![](images/data-lifecycle-0.png){width=55%}
 :::
 
-::: {.column .center width=25%}
-**FAIR Principles**
-
-<br/><br/><br/>
-
-![](images/image-FAIR.png){width=100%}
+::: {.column .center width=10%}
 :::
 
-::: {.column .center width=25%}
-
-**Reproducibility**
-
-<br/>
-
-![](images/reproducible-matrix.jpg){width=100%}
-
-:::
-
-
-::: {.column .center width=25%}
-
+::: {.column .center width=45%}
 **Flux and stocks of data**
 
-<br/>
+<br>
 
-![](images/image-Flux_dispositifs_SI.png){width=100%}
+![](images/image-Flux_dispositifs_SI.png){width=55%}
 :::
 
 ::::
 
 
+:::: {.columns}
 
+::: {.column .center width=45%}
+**FAIR Principles**
 
+![](images/image-FAIR.png){width=55%}
+:::
+
+::: {.column .center width=10%}
+:::
+
+::: {.column .center width=45%}
+**Reproducibility**
+
+![](images/reproducible-matrix.jpg){width=55%}
+:::
+
+::::
 
 
 # Data vs. metadata
@@ -481,45 +474,43 @@ Again a very generic term, ranges from spreadsheets of data occurrences to DNA s
 
 ## Frameworks and Good practices
 
-<br/><br/><br/>
+:::: {.columns}
+
+::: {.column .center width=45%}
+**Data life cycle**
+
+![](images/data-lifecycle-0.png){width=55%}
+:::
+
+::: {.column .center width=10%}
+:::
+
+::: {.column .center width=45%}
+**Flux and stocks of data**
+
+<br>
+
+![](images/image-Flux_dispositifs_SI.png){width=55%}
+:::
+
+::::
+
 
 :::: {.columns}
 
-::: {.column .center width=25%}
-
-**Data life cycle**
-
-<br/>
-
-![](images/image-datalifecycle.png){width=100%}
-:::
-
-::: {.column .center width=25%}
+::: {.column .center width=45%}
 **FAIR Principles**
 
-<br/><br/><br/>
-
-![](images/image-FAIR.png){width=100%}
+![](images/image-FAIR.png){width=55%}
 :::
 
-::: {.column .center width=25%}
+::: {.column .center width=10%}
+:::
 
+::: {.column .center width=45%}
 **Reproducibility**
 
-<br/>
-
-![](images/reproducible-matrix.jpg){width=100%}
-
-:::
-
-
-::: {.column .center width=25%}
-
-**Flux and stocks of data**
-
-<br/>
-
-![](images/image-Flux_dispositifs_SI.png){width=100%}
+![](images/reproducible-matrix.jpg){width=55%}
 :::
 
 ::::
@@ -534,12 +525,12 @@ Again a very generic term, ranges from spreadsheets of data occurrences to DNA s
 
 ::: {.column width=60%}
 
-![](images/image-datalifecycle.png){width=100%}
+![](images/data-lifecycle-0.png){width=80%}
 :::
 
 
 ::: {.column width=40%}
-<br/><br/><br/>
+<br/><br/><br/><br/><br/>
 
 The data lifecycle is the set of stages of management, conservation and dissemination of research data, associated with research activities.
 
@@ -561,9 +552,6 @@ The data lifecycle is the set of stages of management, conservation and dissemin
 :::: {.columns}
 
 ::: {.column width=60%}
-
-<br/><br/>
-
 A set of guiding principles for managing research data to make it 
 **F**indable, **A**ccessible, **I**nteroperable, and **R**eusable by 
 humans and machines[^wilkinson].
@@ -641,13 +629,13 @@ humans and machines[^wilkinson].
 
 ::: {.column width=50%}
 > [...] all raw data and metadata, code, programming scripts, and bespoke 
-> software necessary for fully replicating any analyses that lead to inferences made in a published study[^genkins].
+> software necessary for fully replicating any analyses that lead to inferences made in a published study[^jenkins].
 :::
 
 ::::
 
 [^powers]: [Powers & Hampton (2018)](https://doi.org/10.1002/eap.1822)
-[^genkins]: [Genkins _et al._ (2016)](https://doi.org/10.1002/ece3.9961)
+[^jenkins]: [Jenkins _et al._ (2023)](https://doi.org/10.1002/ece3.9961)
 
 
 
@@ -720,12 +708,13 @@ Peng (2011)[^peng]
 
 <br/>
 
-Each degree of reproducibility requires additional skills and time. While some of those skills (e.g. literal programming, version control, setting up environments) pay off in the long run, they can require a high up-front investment.
+Each degree of reproducibility requires **additional skills and time**. While some of those skills (e.g. literal programming, version control, setting up environments) **pay off in the long run**, they can require a high up-front investment.
 
 
 ## Concepts
 
-According to Wilson _et al._ (2017)[^wilson], good practices for a better reproducibility can be organized into the following six topics:
+According to Wilson _et al._ (2017)[^wilson], good practices for a **better reproducibility** 
+can be organized into the following **six topics**:
 
 <br/>
 <br/>
@@ -733,27 +722,49 @@ According to Wilson _et al._ (2017)[^wilson], good practices for a better reprod
 
 :::: { .columns }
 ::: { .column .center width="33%"}
-{{< fa database >}} &nbsp;Data management
+{{< fa database size=2xl >}}
+
+<br>
+**Data management**
 :::
+
 ::: { .column .center width="33%"}
-{{< fa folder >}} &nbsp;Project organization
+{{< fa folder size=2xl >}}
+
+<br>
+**Project organization**
 :::
+
 ::: { .column .center width="33%"}
-{{< fa code-branch >}} &nbsp;Tracking changes
+{{< fa code-branch size=2xl >}}
+
+<br>
+**Tracking changes**
 :::
 ::::
 
-<br/>
+<br/><br/>
 
 :::: { .columns }
 ::: { .column .center width="33%"}
-{{< fa brands github >}} &nbsp;Collaboration
+{{< fa brands github size=2xl >}}
+
+<br>
+**Collaboration**
 :::
+
 ::: { .column .center width="33%"}
-{{< fa brands markdown >}} &nbsp;Manuscript
+{{< fa brands markdown size=2xl >}}
+
+<br>
+**Manuscript**
 :::
+
 ::: { .column .center width="33%"}
-{{< fa brands r-project >}} &nbsp;Code & Software
+{{< fa code size=2xl >}}
+
+<br>
+**Code & Software**
 :::
 ::::
 
@@ -787,6 +798,8 @@ Website available at: <https://rdatatoolbox.github.io>
 <!-- page 20 -->
 ## Flux and stocks
 
+<br>
+
 ![](images/image-Flux_dispositifs_SI.png){width=60% fig-align='center'}
 
 <!-- page 21 -->
@@ -798,23 +811,23 @@ It is recommended to prioritize deposits in **trusted thematic repositories** (e
 
 :::: {.columns}
 
-::: {.column width=33%}
+::: {.column .center width=33%}
 
-![](images/image-selection-entrepot.jpg){width=80%}
-<br/>
-[Ouvrir la science (2024)](https://www.ouvrirlascience.fr/selectionner-un-entrepot-thematique-de-confiance-pour-le-depot-de-donnees-methodologie-et-analyse-de-loffre-existante/)
+![](images/image-selection-entrepot.jpg){width=70%}
+
+[[Ouvrir la science (2024)]{.citation}](https://www.ouvrirlascience.fr/selectionner-un-entrepot-thematique-de-confiance-pour-le-depot-de-donnees-methodologie-et-analyse-de-loffre-existante/)
 :::
 
-::: {.column width=33%}
-![](images/image-logigrammeFluxSI.png){width=100%}
-<br/>
-[Norvez *et al.*(2024)](https://mnhn.hal.science/mnhn-04296424/)
+::: {.column .center width=33%}
+![](images/image-logigrammeFluxSI.png){width=90%}
+
+[[Norvez *et al.*(2024)]{.citation}](https://mnhn.hal.science/mnhn-04296424/)
 :::
 
-::: {.column width=33%}
-![](images/image-logigramme-rdg.jpg){width=65%}
-<br/>
-[Recherche Data Gouv (2024)](https://recherche.data.gouv.fr/fr/page/entrepot-recherche-data-gouv)
+::: {.column .center width=33%}
+![](images/image-logigramme-rdg.jpg){width=58%}
+
+[[Recherche Data Gouv (2024)]{.citation}](https://recherche.data.gouv.fr/fr/page/entrepot-recherche-data-gouv)
 
 :::
 
@@ -856,13 +869,10 @@ It is recommended to prioritize deposits in **trusted thematic repositories** (e
 - Difficulty for users to know where and how to search for data
 :::
 
-::: {.column width=60% style="text-align: right;"}
-![](images/garnier-tee.png){width=80%}
+::: {.column .center width=60%}
+![](images/garnier-tee.png){width=70%}
 
-::: {.citation .center}
-Figure from [Garnier & Pavoine _et al._ (2025)](https://doi.org/10.1016/j.tree.2025.06.004)
-:::
-
+[From [Garnier & Pavoine _et al._ (2025)](https://doi.org/10.1016/j.tree.2025.06.004)]{.citation}
 :::
 
 ::::
@@ -872,9 +882,11 @@ Figure from [Garnier & Pavoine _et al._ (2025)](https://doi.org/10.1016/j.tree.2
 
 ## A complex landscape
 
+<br>
+
 :::: {.columns}
 
-::: {.column width=60%}
+::: {.column width=45%}
 <br>
 PatriNat wrote a document (in french) to support producers and reusers of biodiversity data and metadata in:
 
@@ -887,18 +899,24 @@ PatriNat wrote a document (in french) to support producers and reusers of biodiv
 The targets of this document are mainly researchers, managers, engineers and data technicians
 :::
 
-::: {.column .center width=40%}
+::: {.column width=5%}
+:::
 
-![](images/image-noteflux2023.jpg){width=60%}
+::: {.column .center width=25%}
+
+![](images/image-noteflux2023.jpg){width=100%}
+
+[Version 1 is available [here](https://mnhn.hal.science/mnhn-04296424/)]{.citation}
+:::
+
+::: {.column .center width=25%}
+
+![](images/image-noteflux2026.png){width=100%}
+
+[Version 2 is available [here](https://mnhn.hal.science/hal-05742498v1)]{.citation}
 :::
 
 ::::
-
-<br/>
-
-- Version 1 is available [here](https://mnhn.hal.science/mnhn-04296424/)
-- Version 2 will be available soon in January 2025
-<br>
 
 
 
@@ -907,9 +925,9 @@ The targets of this document are mainly researchers, managers, engineers and dat
 
 ## A complex landscape
 
-![](images/image-Flux_dispositifs_SI.png){width=70% fig-align='center'}
+<br>
 
-
+![](images/image-Flux_dispositifs_SI.png){width=60% fig-align='center'}
 
 
 <!-- xxx page -->
