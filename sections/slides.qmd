@@ -229,7 +229,7 @@ OSS Strategic objectives :
 ::::
 #### **Biodiversity data**
 
-> **Artifacts** and **symbols** collected, stored, and disseminated in order to document the constituent elements of life, extant or extinct, at **any scale** of time and space. [...] These **elements are biological** and encompass anything that **contributes to the structure and function of life at any scale**, from the microscopic to the level of the planet, and to the **continuation of life, that is, its ability to persist and evolve over time**[^Garnier].
+> **Artifacts** and **symbols** collected, stored, and disseminated in order to document the constituent elements of life, extant or extinct, at **any scale** of time and space [...] These **elements are biological** and encompass anything that **contributes to the structure and function of life at any scale**, from the microscopic to the level of the planet, and to the **continuation of life, that is, its ability to persist and evolve over time**[^Garnier].
 
 [^oecd]: [OECD (2007)](https://www.oecd-ilibrary.org/science-and-technology/oecd-principles-and-guidelines-for-access-to-research-data-from-public-funding_9789264034020-en-fr)
 
@@ -609,7 +609,7 @@ The data lifecycle is the set of stages of management, conservation and dissemin
 
 <br/>
 
-{{< fa circle-right >}} &nbsp;For more information: [PNDB](https://www.pndb.fr/fr/ressources/principes-fair-et-cycle-de-vie-des-donnees)
+{{< fa circle-right >}} &nbsp;For more information *in French*: [PNDB](https://www.pndb.fr/pages/services-par-etape-du-cycle-de-vie-de-la-donnee/)
 
 :::
 
@@ -621,43 +621,61 @@ The data lifecycle is the set of stages of management, conservation and dissemin
 
 ## FAIR & CARE principles
 
-![](images/image-FAIR_CARE.png){width=80%}
+![](images/image-FAIR_CARE.png){width=50%}
+
+<!-- page xx -->
 
 ## FAIR principles
 
+*A set of guiding principles for managing research data to make it **F**indable, **A**ccessible, **I**nteroperable, and **R**eusable by humans and machines[^wilkinson][^gofair].*<br/>
+
 :::: {.columns}
+::: {.column width=25%}
+**To be Findable:**
 
-::: {.column width=60%}
-A set of guiding principles for managing research data to make it 
-**F**indable, **A**ccessible, **I**nteroperable, and **R**eusable by 
-humans and machines[^wilkinson].
-
-
-<br/>
-
-
-![](images/image-FAIR.png){width=50%}
-
-![](images/image-GOFAIR.png){width=30%}
-
-{{< fa circle-right >}} &nbsp;For more information: [PNDB](https://www.pndb.fr/fr/ressources/principes-fair-et-cycle-de-vie-des-donnees)
+- (meta)data are assigned a globally unique and persistent identifier<br/>
+- data are described with rich metadata (defined by R1 below)<br/>
+- metadata clearly and explicitly include the identifier of the data it describes<br/>
+- (meta)data are registered or indexed in a searchable resource<br/>
 :::
+::: {.column width=25%}
+**To be Accessible:**
 
-::: {.column .right width=40%}
-
-![](images/image-FAIRprinciples.jpg){width=70% fig-align='right'}
+- (meta)data are retrievable by their identifier using a standardized communications protocol<br/>
+- the protocol is open, free, and universally implementable<br/>
+- the protocol allows for an authentication and authorization procedure, where necessary<br/>
+- metadata are accessible, even when the data are no longer available<br/>
 :::
+::: {.column width=25%}
+**To be Interoperable:**
 
+- (meta)data use a formal, accessible, shared, and broadly applicable language for knowledge representation.<br/>
+- (meta)data use vocabularies that follow FAIR principles<br/>
+- (meta)data include qualified references to other (meta)data<br/>
+:::
+::: {.column width=25%}
+**To be Reusable:**
+
+- meta(data) are richly described with a plurality of accurate and relevant attributes<br/>
+- (meta)data are released with a clear and accessible data usage license<br/>
+- (meta)data are associated with detailed provenance<br/>
+- (meta)data meet domain-relevant community standards<br/>
+:::
 ::::
 
 
-
 [^wilkinson]: [Wilkinson _et al._ (2017)](https://doi.org/10.1038/sdata.2016.18)
-
+[^gofair]: [GO FAIR](https://www.gofair.foundation/)
 
 <!-- page 21 -->
+
 ## FAIR principles
 
+<div style="width: 80%;"><div style="position: relative; padding-bottom: 56.25%; padding-top: 0; height: 0;"><iframe frameborder="0" width="1200px" height="675px" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" src="https://view.genial.ly/5d64fbbd8352350fa3d22603" type="text/html" allowscriptaccess="always" allowfullscreen="true" scrolling="yes" allownetworking="all"></iframe> </div> </div>
+
+> {{< fa circle-right >}} &nbsp;For more information *in French*: the FAIRness guides of "biodiversity" [PNDB](https://hal.science/DATA-TERRA/hal-05742498v1) and the Lands Surfaces [THEIA](https://hal.science/DATA-TERRA/hal-05552026v1) hubs of the Data Terra Research Infrastucture
+
+## FAIR principles
 
 ![](images/image-Datastandardization.png){width=80% fig-align='center'}
 
@@ -708,7 +726,7 @@ humans and machines[^wilkinson].
 #### **Target 21** :Ensure That Knowledge Is Available and Accessible To Guide Biodiversity Action
 :::: {.columns}
 ::: {.column width=70%}
->Ensure that the best available data, information and knowledge, are accessible to decision makers, practitioners and the public to guide effective and equitable governance, integrated and participatory management of biodiversity, and to strengthen communication, awareness-raising, education, monitoring, research and knowledge management and, also in this context, traditional knowledge, innovations, practices and technologies of indigenous peoples and local communities should only be accessed with their free, prior and informed consent[1], in accordance with national legislation[^CBD].<br>
+>Ensure that the best available data, information and knowledge, are accessible to decision makers, practitioners and the public to guide effective and equitable governance, integrated and participatory management of biodiversity, and to strengthen communication, awareness-raising, education, monitoring, research and knowledge management and, also in this context, **traditional knowledge, innovations, practices and technologies of indigenous peoples and local communities** should only be accessed with their free, prior and informed consent[1], in accordance with national legislation[^CBD].<br>
 :::
 ::: {.column .center width=30%}
 ![](images/image-target21.png){width=50%}
@@ -755,8 +773,6 @@ humans and machines[^wilkinson].
 >GEO https://earthobservations.org/groups/geo-indigenous-alliance 
 
 >DoraNum https://doranum.fr/aspects-juridiques-ethiques/les-principes-care_10_13143_af7s-g015/
-
-
 
 
 <!-- page -->
