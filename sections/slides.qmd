@@ -671,7 +671,7 @@ humans and machines[^wilkinson].
 
 :::: {.columns}
 ::: {.column width=70%}
->The CARE Principles are people and purpose-oriented, reflecting the crucial role of data in advancing innovation, governance, and self-determination among Indigenous Peoples[^Carroll].<br>
+>Indigenous data are data, information, and knowledge, in any format, that impact Indigenous Peoples, nations, and communities at the collective and individual levels; data about their resources and environments, data about them as Individuals, and data about them as collectives[^Carroll].<br>
 :::
 ::: {.column .center width=30%}
 ![](images/image-logo-GIDA.png){width=100%}
@@ -687,7 +687,7 @@ humans and machines[^wilkinson].
 :::
 ::::
 
-[^Carroll]: [Carroll _et al._ (2020)](https://doi.org/10.5334/dsj-2020-042)
+[^Carroll]: [Carroll _et al._ (2021)](https://doi.org/10.1038/s41597-021-00892-0)
 [^DORANum]: [DORANum (2023)](https://doi.org/10.13143/AF7S-G015)
 
 <!-- page -->
@@ -715,8 +715,49 @@ humans and machines[^wilkinson].
 :::
 ::::
 
-
 [^CBD]: [CBD (2023)](https://www.cbd.int/gbf/targets/21)
+
+<!-- page -->
+
+## The FAIR & CARE principles
+
+#### **Differences and complementarities**
+
+:::: {.columns}
+::: {.column width=70%}
+>Operationalizing the FAIR Principles for scientific data with the CARE Principles for Indigenous Data Governance enhances machine actionability and brings people and purpose to the fore to resolve Indigenous Peoples’ rights to and interests in their data across the data lifecycle[^Carroll].<br>
+:::
+::: {.column .center width=30%}
+![](images/image-FAIR_CARE2.png){width=60%}
+:::
+::::
+
+![](images/image-FAIR_CARE3.png){width=70%}
+
+>Toward an implementation of the FAIR & CARE Principles across the data lifecycle.
+
+[^Carroll]: [Carroll _et al._ (2021)](https://doi.org/10.1038/s41597-021-00892-0)
+
+<!-- page -->
+
+## CARE principles
+
+#### **to go further**
+
+>Carroll, S.R., et al. 2021. Operationalizing the CARE and FAIR Principles for Indigenous data futures https://doi.org/10.1038/s41597-021-00892-0
+
+>Carroll, S, et al. 2020. The CARE Principles for Indigenous Data Governance. https://doi.org/10.5334/dsj-2020-042 
+
+>GIDA https://www.gida-global.org/ 
+
+>GBIF https://www.gbif.org/news/1Ke3Gk2USgdIW5OgDlBIKY/open-data-for-people-and-purpose-gbif-establishes-task-group-on-indigenous-data-governance 
+
+>GEO https://earthobservations.org/groups/geo-indigenous-alliance 
+
+>DoraNum https://doranum.fr/aspects-juridiques-ethiques/les-principes-care_10_13143_af7s-g015/
+
+
+
 
 <!-- page -->
 
