@@ -204,9 +204,11 @@ OSS Strategic objectives :
 
 ## Definitions
 
+#### **Data & Metadata**
+
 :::: {.columns}
 
-::: {.column width=35%}
+::: {.column width=30%}
 
 > Research **data** are defined as factual records in the form of figures, 
 > texts, images and sounds which are used as the main sources for scientific 
@@ -214,11 +216,11 @@ OSS Strategic objectives :
 > necessary to validate research results[^oecd].
 :::
 
-::: {.column .center width=30%}
+::: {.column .center width=60%}
 ![](images/image_DataMetadata.png){width=100%}
 :::
 
-::: {.column width=35%}
+::: {.column width=30%}
 > **Metadata**, which can be simply defined as **data about data**, is a way of 
 > naming things and representing data and their relationships [...] Metadata is 
 > structured information that describes, explains, locates, or otherwise makes 
@@ -230,16 +232,15 @@ OSS Strategic objectives :
 #### **Biodiversity data**
 
 > **Artifacts** and **symbols** collected, stored, and disseminated in order to 
-> document the constituent elements of life, extant or extinct, 
-> at **any scale** of time and space. <br /><br />
-> These **elements are biological** and encompass anything that **contributes to the structure and function of life at any scale**, from the microscopic to the level of the planet, and to the **continuation of life, that is, its ability to persist and evolve over time**.
-
-
-
+> document the constituent elements of life, extant or extinct, at **any scale** of time and space. 
+<br /><br />
+> These **elements are biological** and encompass anything that **contributes to the structure and function of life at any scale**, from the microscopic to the level of the planet, and to the **continuation of life, that is, its ability to persist and evolve over time**.[^Garnier et al. 2025]
 
 [^oecd]: [OECD (2007)](https://www.oecd-ilibrary.org/science-and-technology/oecd-principles-and-guidelines-for-access-to-research-data-from-public-funding_9789264034020-en-fr)
 
 [^borgman]: [Borgman (2020)](https://books.openedition.org/oep/14692)
+
+[^Garnier et al. 2025]: [Garnier et al. (2025)](https://doi.org/10.1016/j.tree.2025.06.004)
 
 
 <!-- page 12 -->
@@ -346,7 +347,6 @@ Imagine: you're wondering about the distribution of a given species.
 
 :::
 ::::
-
 
 <!-- page 13 bis -->
 
