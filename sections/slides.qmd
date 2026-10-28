@@ -208,7 +208,7 @@ OSS Strategic objectives :
 
 :::: {.columns}
 
-::: {.column width=30%}
+::: {.column width=35%}
 
 > Research **data** are defined as factual records in the form of figures, 
 > texts, images and sounds which are used as the main sources for scientific 
@@ -216,31 +216,26 @@ OSS Strategic objectives :
 > necessary to validate research results[^oecd].
 :::
 
-::: {.column .center width=60%}
+::: {.column .center width=30%}
 ![](images/image_DataMetadata.png){width=100%}
 :::
 
-::: {.column width=30%}
+::: {.column width=35%}
 > **Metadata**, which can be simply defined as **data about data**, is a way of 
 > naming things and representing data and their relationships [...] Metadata is 
 > structured information that describes, explains, locates, or otherwise makes 
 > it easier to retrieve, use or manage an information resource[^borgman].
 :::
-
 ::::
-
 #### **Biodiversity data**
 
-> **Artifacts** and **symbols** collected, stored, and disseminated in order to 
-> document the constituent elements of life, extant or extinct, at **any scale** of time and space. 
-<br /><br />
-> These **elements are biological** and encompass anything that **contributes to the structure and function of life at any scale**, from the microscopic to the level of the planet, and to the **continuation of life, that is, its ability to persist and evolve over time**.[^Garnier et al. 2025]
+> **Artifacts** and **symbols** collected, stored, and disseminated in order to document the constituent elements of life, extant or extinct, at **any scale** of time and space. [...] These **elements are biological** and encompass anything that **contributes to the structure and function of life at any scale**, from the microscopic to the level of the planet, and to the **continuation of life, that is, its ability to persist and evolve over time**[^Garnier].
 
 [^oecd]: [OECD (2007)](https://www.oecd-ilibrary.org/science-and-technology/oecd-principles-and-guidelines-for-access-to-research-data-from-public-funding_9789264034020-en-fr)
 
 [^borgman]: [Borgman (2020)](https://books.openedition.org/oep/14692)
 
-[^Garnier et al. 2025]: [Garnier et al. (2025)](https://doi.org/10.1016/j.tree.2025.06.004)
+[^Garnier]: [Garnier et al. (2025)](https://doi.org/10.1016/j.tree.2025.06.004)
 
 
 <!-- page 12 -->
@@ -577,9 +572,9 @@ Again a very generic term, ranges from spreadsheets of data occurrences to DNA s
 :::: {.columns}
 
 ::: {.column .center width=45%}
-**FAIR Principles**
+**FAIR & CARE Principles**
 
-![](images/image-FAIR.png){width=55%}
+![](images/image-FAIR_CARE.png){width=55%}
 :::
 
 ::: {.column .center width=10%}
@@ -624,8 +619,11 @@ The data lifecycle is the set of stages of management, conservation and dissemin
 
 <!-- page xx -->
 
-## FAIR principles
+## FAIR & CARE principles
 
+![](images/image-FAIR_CARE.png){width=80%}
+
+## FAIR principles
 
 :::: {.columns}
 
@@ -665,6 +663,62 @@ humans and machines[^wilkinson].
 
 {{< fa circle-right >}} &nbsp;For more information: [PNDB](https://www.pndb.fr/fr/outils-services/outils-services-par-etapes/preservation#Standardisation%20des%20{m%C3%A9ta}donn%C3%A9es) and [GBIF](https://www.gbif.org/darwin-core)
 
+<!-- page -->
+
+## CARE principles
+
+#### **Definitions**
+
+:::: {.columns}
+::: {.column width=70%}
+>The CARE Principles are people and purpose-oriented, reflecting the crucial role of data in advancing innovation, governance, and self-determination among Indigenous Peoples[^Carroll].<br>
+:::
+::: {.column .center width=30%}
+![](images/image-logo-GIDA.png){width=100%}
+:::
+::::
+
+:::: {.columns}
+::: {.column width=70%}
+>These principles, centered on Indigenous peoples, emphasize Collective benefit, Authority to control, Responsibility, and Ethics. They stress respect for the rights, sovereignty, and values ​​of Indigenous peoples regarding their data. They focus on protecting and respecting the individuals and communities from whom the data originates.[^DORANum].<br>
+:::
+::: {.column .center width=30%}
+![](images/image-doranum-logo.png){width=100%}
+:::
+::::
+
+[^Carroll]: [Carroll _et al._ (2020)](https://doi.org/10.5334/dsj-2020-042)
+[^DORANum]: [DORANum (2023)](https://doi.org/10.13143/AF7S-G015)
+
+<!-- page -->
+
+## CARE principles
+
+#### **The Kunming-Montreal Global Biodiversity Framework**
+
+:::: {.columns}
+::: {.column width=70%}
+>The Kunming-Montreal Global Biodiversity Framework (KMGBF) was adopted during the fifteenth meeting of the Conference of the Parties (COP 15) [...] Among the Framework’s key elements are 4 goals for 2050 and 23 targets for 2030.<br>
+:::
+::: {.column .center width=30%}
+![](images/image-logo-KMGBF.jpg){width=50%}
+:::
+::::
+
+#### **Target 21** :Ensure That Knowledge Is Available and Accessible To Guide Biodiversity Action
+:::: {.columns}
+::: {.column width=70%}
+>Ensure that the best available data, information and knowledge, are accessible to decision makers, practitioners and the public to guide effective and equitable governance, integrated and participatory management of biodiversity, and to strengthen communication, awareness-raising, education, monitoring, research and knowledge management and, also in this context, traditional knowledge, innovations, practices and technologies of indigenous peoples and local communities should only be accessed with their free, prior and informed consent[1], in accordance with national legislation[^CBD].<br>
+:::
+::: {.column .center width=30%}
+![](images/image-target21.png){width=50%}
+:::
+::::
+
+
+[^CBD]: [CBD (2023)](https://www.cbd.int/gbf/targets/21)
+
+<!-- page -->
 
 # Reproducibility concepts
 
