@@ -68,6 +68,36 @@ UNESCO asks member States to :
 
 ::::
 
+## Open Science in Europe
+
+**Framework in Open Science**
+
+> blablalblas[^EOSC].
+
+[^EOSC]: [EOSC](https://www.unesco.org/en/open-science)
+
+:::: {.columns}
+
+::: {.column .center width=30%}
+![](images/image-unesco-logo.png){width=80%}
+:::
+
+::: {.column width=70%}
+
+UNESCO asks member States to :
+
+**1.** Promote a shared understanding of open science and set out diverse paths to achieving it<br>
+**2.** Develop an enabling policy environment for open science<br>
+**3.** Invest in infrastructure and activities that contribute to open science<br>
+**4.** Invest in training, education, digital literacy and capacity-building to support open science<br>
+**5.** Foster a culture of open science and align incentives to support it<br>
+**6.** Promote innovative approaches for open science at all stages of the scientific process<br>
+**7.** Encourage international and multi-stakeholder cooperation in the context of open science to reduce gaps in technology and knowledge<br>
+:::
+
+::::
+
+
 ## Open Science in France
 
 **Second French Plan for Open Science**[^french-plan]
