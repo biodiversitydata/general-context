@@ -41,7 +41,7 @@
 
 ## Open Science in the world
 
-**Framework in Open Science**
+**The Open Science by UNESCO**
 
 > Open science aims at making scientific knowledge openly available, accessible and reusable. The key elements of open science include: open access to scientific knowledge (including open access to scientific publications, data, educational resources, software and hardware); open infrastructures; open engagement with society and dialogue with indigenous and traditional knowledge systems, among others[^UNESCO].
 
@@ -70,29 +70,27 @@ UNESCO asks member States to :
 
 ## Open Science in Europe
 
-**Framework in Open Science**
+**The Open Science by EOSC**
 
-> blablalblas[^EOSC].
+> The ambition of the European Open Science Cloud, known as EOSC, is to develop a ‘Web of FAIR Data and Services’ for science in Europe. The implementation of EOSC is based on a long-term process of alignment and coordination pursued by the Commission since 2015.[^EOSC].
 
-[^EOSC]: [EOSC](https://www.unesco.org/en/open-science)
+[^EOSC]: [EOSC](https://eosc.eu/)
 
 :::: {.columns}
 
 ::: {.column .center width=30%}
-![](images/image-unesco-logo.png){width=80%}
+![](images/image-eosc-logo.png){width=80%}
 :::
 
 ::: {.column width=70%}
 
-UNESCO asks member States to :
+EOSC will also improve the situation for researchers in many ways, namely by :
 
-**1.** Promote a shared understanding of open science and set out diverse paths to achieving it<br>
-**2.** Develop an enabling policy environment for open science<br>
-**3.** Invest in infrastructure and activities that contribute to open science<br>
-**4.** Invest in training, education, digital literacy and capacity-building to support open science<br>
-**5.** Foster a culture of open science and align incentives to support it<br>
-**6.** Promote innovative approaches for open science at all stages of the scientific process<br>
-**7.** Encourage international and multi-stakeholder cooperation in the context of open science to reduce gaps in technology and knowledge<br>
+**1.** Enhancing scientific research by providing access to a weath of data and research outputs from various fields and institutions.<br>
+**2.** Fostering innovation by making it easier for researchers to share, collaborate and build on each others’ work.<br>
+**3.** Improving transparency and reproducibility of research by making data and methods more open and accessible<br>
+**4.** Reducing data silos and duplication of efforts by promoting data sharing and reuse<br>
+**5.** Facilitating interdisciplinarity research and cross-sectoral collaboration by making data and resources from different domains more easily available<br>
 :::
 
 ::::
@@ -100,29 +98,49 @@ UNESCO asks member States to :
 
 ## Open Science in France
 
-**Second French Plan for Open Science**[^french-plan]
+**Second French Plan for Open Science**
 
-> France is committed to ensuring that the results of scientific research are open to all, researchers, companies and citizens, without hindrance, without delay, without payment.
+> France is committed to ensuring that the results of scientific research are open to all, researchers, companies and citizens, without hindrance, without delay, without payment.[^french-plan]
 
 [^french-plan]: [Second French Plan for Open Science](https://www.ouvrirlascience.fr/deuxieme-plan-national-pour-la-science-ouverte-pnso/)
 
 :::: {.columns}
-
 ::: {.column .center width=40%}
 ![](images/logo-PNSO2.png){width=60%}
 :::
-
 ::: {.column width=60%}
-<br/><br/><br/><br/><br/>
-
 **1.** Generalize open access to publications<br>
 **2.** Structure, share and open research data<br>
 **3.** Open and promote source codes produced by research<br>
-**4.** Transforming practices to make open science the default principle
+**4.** Transforming practices to make open science the default principle<br>
 :::
-
 ::::
 
+## Open Science in France
+
+**The French Open Science Strategy (OSS) 2026–2033**
+
+> The French Open Science Strategy (OSS) 2026–2033, aims to strengthen the transformations initiated with the two previous national plans. Covering eight years, it is structured around ambitions, challenges, strategic objectives, and four-year action plans. The 2026–2029 action plan breaks down 8 strategic objectives into 30 actions and 75 measures.[^OSS]
+
+[^OSS]: [The French Open Science Strategy](https://www.ouvrirlascience.fr/french-open-science-strategy/)
+
+:::: {.columns}
+::: {.column .center width=20%}
+![](images/image-OpenScienceStrategy.png){width=80%}
+:::
+::: {.column width=80%}
+OSS Strategic objectives :
+
+**1.**  Encourage a shift in practices to make open science the default approach<br>
+**2.** Consolidate the governance and instruments of open science policy<br>
+**3.** Reinforce the ecosystem of open science services and infrastructures, pillars of academic sovereignty<br>
+**4.** Consolidate france’s position within the european and international open science landscape<br>
+**5.** Structure and support open, reliable and high-quality academic publishing<br>
+**6.** Consolidate the structuring of open and shared research data in accordance with the FAIR principles<br>
+**7.** Increase the openness and valorisation of source code and software from research projects<br>
+**8.** Ensure the transparency of clinical trials<br>
+:::
+::::
 
 <!-- third page -->
 
