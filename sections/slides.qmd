@@ -171,9 +171,9 @@ OSS Strategic objectives :
 :::: {.columns}
 
 ::: {.column .center width=45%}
-**FAIR Principles**
+**FAIR & CARE Principles**
 
-![](images/image-FAIR.png){width=55%}
+![](images/image-FAIR_CARE.png){width=55%}
 :::
 
 ::: {.column .center width=10%}
