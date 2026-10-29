@@ -1055,7 +1055,7 @@ It is recommended to prioritize deposits in **trusted thematic repositories** (e
 
 ::: {.column width=40%}
 <br>
-Here's some doucuments (*in French*) to support producers and reusers of biodiversity data and metadata in:
+Here's some documents (*in French*) to support producers and reusers of biodiversity data and metadata in:
 
 - Understanding the landscape (actors, who does what, who is who, etc.)
 - Sharing (meta)data (where to deposit them, what types of data, etc.)
@@ -1067,36 +1067,43 @@ Here's some doucuments (*in French*) to support producers and reusers of biodive
 
 ![](images/image-noteflux2023.jpg){width=100%}
 
-[Norvez _et al_ 2023](https://mnhn.hal.science/mnhn-04296424/)
+[Norvez _et al._, (2023)](https://mnhn.hal.science/mnhn-04296424/)
 :::
 
 ::: {.column .center width=20%}
 
 ![](images/GuideFAIRisationTHEIA.png){width=100%}
 
-[Norvez _et al_ 2025](https://hal.science/DATA-TERRA/hal-05552026v1)
+[Norvez _et al._, (2025)](https://hal.science/DATA-TERRA/hal-05552026v1)
 :::
 
 ::: {.column .center width=20%}
 
 ![](images/GuideFAIRisationPNDB.png){width=100%}
 
-[Norvez _et al_ 2026](https://hal.science/DATA-TERRA/hal-05742498v1)
+[Norvez _et al._, (2026)](https://hal.science/DATA-TERRA/hal-05742498v1)
 :::
 
 ::::
 
-*Nota Bene* : The targets of these documents are mainly researchers, managers, engineers and data technicians
+> *Nota Bene* : The targets of these documents are mainly researchers, managers, engineers and data technicians
 
 <!-- xxx page -->
 
 
 ## A complex landscape
 
-<br>
+:::: {.columns}
+::: {.column width=50%}
+![](images/image-fluxTHEIA.png){width=100%}
+[Norvez _et al._, (2025)](https://hal.science/DATA-TERRA/hal-05552026v1)
 
-![](images/image-Flux_dispositifs_SI.png){width=60% fig-align='center'}
+:::
 
+::: {.column width=50%}
+![](images/image-fluxPNDB.png){width=100%}
+[Norvez _et al._, (2026)](https://hal.science/DATA-TERRA/hal-05742498v1)
+:::
 
 <!-- xxx page -->
 

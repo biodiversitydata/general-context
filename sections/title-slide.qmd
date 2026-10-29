@@ -61,7 +61,7 @@ Nicolas Casajus<br/>
 :::: {.columns .affiliations}
 
 ::: {.column .affiliation width="32%"}
-Animation coordinator
+Data Facilitator & Data Steward
 <br/>
 <code>@DataTerra</code>
 &nbsp;
