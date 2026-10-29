@@ -1043,7 +1043,7 @@ It is recommended to prioritize deposits in **trusted thematic repositories** (e
 [^garnier]: [Garnier _et al._ (2025)](https://doi.org/10.1016/j.tree.2025.06.004)
 [^Kemp]: [Kemp _et al._ (2026)](https://doi.org/10.1146/annurev-environ-121224-084200)
 
-> *Diversity of tools and practices (historical practices) / Different supervisions / Flow and storage of data and metadata / Difficulty for data producers to identify the right information systems to deposit their data according to the scopes and themes / Difficulty for users to know where and how to search for data
+*Diversity of tools and practices (historical practices) / Different supervisions / Flow and storage of data and metadata / Difficulty for data producers to identify the right information systems to deposit their data according to the scopes and themes / Difficulty for users to know where and how to search for data*
 
 <!-- xxxx page -->
 
