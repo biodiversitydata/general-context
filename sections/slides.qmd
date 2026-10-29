@@ -1053,39 +1053,40 @@ It is recommended to prioritize deposits in **trusted thematic repositories** (e
 
 :::: {.columns}
 
-::: {.column width=45%}
+::: {.column width=40%}
 <br>
-PatriNat wrote a document (in french) to support producers and reusers of biodiversity data and metadata in:
+Here's some doucuments (*in French*) to support producers and reusers of biodiversity data and metadata in:
 
 - Understanding the landscape (actors, who does what, who is who, etc.)
 - Sharing (meta)data (where to deposit them, what types of data, etc.)
 - Using the latter via information systems according to the themes and/or target audiences
-
 <br/>
 
-The targets of this document are mainly researchers, managers, engineers and data technicians
 :::
-
-::: {.column width=5%}
-:::
-
-::: {.column .center width=25%}
+::: {.column .center width=20%}
 
 ![](images/image-noteflux2023.jpg){width=100%}
 
-[Version 1 is available [here](https://mnhn.hal.science/mnhn-04296424/)]{.citation}
+[Norvez _et al_ 2023](https://mnhn.hal.science/mnhn-04296424/)
 :::
 
-::: {.column .center width=25%}
+::: {.column .center width=20%}
 
-![](images/image-noteflux2026.png){width=100%}
+![](images/GuideFAIRisationTHEIA.png){width=100%}
 
-[Version 2 is available [here](https://mnhn.hal.science/hal-05742498v1)]{.citation}
+[Norvez _et al_ 2025](https://hal.science/DATA-TERRA/hal-05552026v1)
+:::
+
+::: {.column .center width=20%}
+
+![](images/GuideFAIRisationPNDB.png){width=100%}
+
+[Norvez _et al_ 2026](https://hal.science/DATA-TERRA/hal-05742498v1)
 :::
 
 ::::
 
-
+*Nota Bene* : The targets of these documents are mainly researchers, managers, engineers and data technicians
 
 <!-- xxx page -->
 
@@ -1099,11 +1100,6 @@ The targets of this document are mainly researchers, managers, engineers and dat
 
 <!-- xxx page -->
 
-## A complex landscape
-
-![](images/image-logigrammeFluxSI.png){width=70% fig-align='center'}
-
-<!-- page 23 -->
 ## Take home message
 
 - **Heterogeneity** (data types, origin, standards) & **diversity** of "objects" to be linked together[^1]
@@ -1125,7 +1121,7 @@ The targets of this document are mainly researchers, managers, engineers and dat
 
 ::: {.column .center width=33%}
 
-![](images/image-FAIR.png){width=100%}
+![](images/image-FAIR_CARE.png){width=100%}
 ![](images/image-datalifecycle.png){width=100%}
 
 :::
@@ -1168,7 +1164,7 @@ The targets of this document are mainly researchers, managers, engineers and dat
 
 **Data Terra**
 
-- [Tools & services](https://www.data-terra.org/donnees-services/acces-rapide/)
+- [Tools & Services](https://www.data-terra.org/donnees-services/acces-rapide/)
 
 - [Biodiversity Data Access](https://www.pndb.fr/explore) 
 
@@ -1191,7 +1187,7 @@ The targets of this document are mainly researchers, managers, engineers and dat
 ::: {.column width=25%}
 **GBIF**
 
-- [Data](https://www.gbif.org/occurrence/search)
+- [Data Access](https://www.gbif.org/occurrence/search)
 
 - [Resources](https://www.gbif.org/resource/search)
 

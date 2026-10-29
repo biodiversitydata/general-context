@@ -15,7 +15,7 @@ General context
 :::
 
 ::: {.subtitle}
-Open science, Data lifecyle & FAIR principles
+Open science, Data lifecyle, FAIR & CARE principles
 :::
 
 ::: {.date}
@@ -77,11 +77,13 @@ Animation coordinator
 :::
 
 ::: {.column .affiliation width="32%"}
-Data engineer
+Senior data scientist
 <br/>
-<code>@GBIF-France</code>
+<code>@FRB-CESAB</code>
 &nbsp;
-[{{< fa globe >}}](http://www.gbif.fr/)
+[{{< fa globe >}}](https://www.fondationbiodiversite.fr/en/about-the-foundation/le-cesab/)
+&nbsp;
+[{{< fa brands github >}}](https://github.com/frbcesab)
 :::
 
 ::: {.column .affiliation width="32%"}
