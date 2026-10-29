@@ -1029,7 +1029,7 @@ It is recommended to prioritize deposits in **trusted thematic repositories** (e
 :::: {.columns}
 ::: {.column width=50%}
 
-> A non-exhaustive selection of representative databases, information systems or networks, is represented through their logos, illustrating the broad and complex landscape of relevance for biodiversity data and the considerable challenge at hand for data access, exchange and persistence*[^garnier].<br/>
+> A non-exhaustive selection of representative databases, information systems or networks, is represented through their logos, illustrating the broad and **complex landscape** of relevance for biodiversity data and the **considerable challenge at hand for data access, exchange and persistence**[^garnier].<br/>
 
 > In recent decades, the availability and accessibility of biodiversity data and the **profusion** of portals, tools, and platforms through which to utilize them have increased rapidly [...] it can create **confusion** in navigating biodiversity data within a highly **saturated landscape**[^Kemp].<br/>
 
@@ -1042,6 +1042,8 @@ It is recommended to prioritize deposits in **trusted thematic repositories** (e
 
 [^garnier]: [Garnier _et al._ (2025)](https://doi.org/10.1016/j.tree.2025.06.004)
 [^Kemp]: [Kemp _et al._ (2026)](https://doi.org/10.1146/annurev-environ-121224-084200)
+
+> *Diversity of tools and practices (historical practices) / Different supervisions / Flow and storage of data and metadata / Difficulty for data producers to identify the right information systems to deposit their data according to the scopes and themes / Difficulty for users to know where and how to search for data
 
 <!-- xxxx page -->
 
