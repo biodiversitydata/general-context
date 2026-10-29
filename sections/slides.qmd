@@ -967,7 +967,7 @@ Website available at: <https://rdatatoolbox.github.io>
 
 <br>
 
-![](images/image-Flux_dispositifs_SI.png){width=60% fig-align='center'}
+![](images/image-Flux_dispositifs_SI.png){width=80% fig-align='center'}
 
 <!-- page 21 -->
 ## Flux and stocks
@@ -1024,8 +1024,9 @@ It is recommended to prioritize deposits in **trusted thematic repositories** (e
 
 ## A complex landscape
 
-:::: {.columns}
+>*A non-exhaustive selection of representative databases, information systems or networks, is represented through their logos, illustrating the broad and complex landscape of relevance for biodiversity data and the considerable challenge at hand for data access, exchange and persistence*[^garnier].<br/>
 
+:::: {.columns}
 ::: {.column width=40%}
 <br/>
 
@@ -1038,13 +1039,12 @@ It is recommended to prioritize deposits in **trusted thematic repositories** (e
 
 ::: {.column .center width=60%}
 ![](images/garnier-tee.png){width=70%}
-
-[From [Garnier & Pavoine _et al._ (2025)](https://doi.org/10.1016/j.tree.2025.06.004)]{.citation}
 :::
-
 ::::
 
+[^garnier]: [Garnier _et al._ (2025)](https://doi.org/10.1016/j.tree.2025.06.004)
 
+<!-- xxxx page -->
 
 
 ## A complex landscape
@@ -1168,21 +1168,24 @@ The targets of this document are mainly researchers, managers, engineers and dat
 
 **Data Terra**
 
-- [PNDB Data Access](https://www.pndb.fr/explore) 
+- [Tools & services](https://www.data-terra.org/donnees-services/acces-rapide/)
 
-- [PNDB Services](https://www.pndb.fr/pages/galaxy-ecology0/)
+- [Biodiversity Data Access](https://www.pndb.fr/explore) 
 
-- [PNDB Resources](https://www.pndb.fr/fr/ressources/ressources-en-ecoinformatique)
+- [Biodiversity Services](https://www.pndb.fr/pages/services-par-etape-du-cycle-de-vie-de-la-donnee/)
 
-- [PNDB Bibliographic resources](https://pndb.opendatasoft.com/explore/?orderBy=updated_at+DESC&refines=keywords%3ABibliographie&refines=category%3ARessources)
+- [Ecoinformatics Resources](https://www.pndb.fr/explore/?orderBy=updated_at+DESC&refines=category%3ARessources)
 
-- [THEIA Data Access](https://catalogue.theia.data-terra.org/)
+- [Lands Surfaces Data Access](https://catalogue.theia.data-terra.org/)
 
-- [Data Terra Tools & services](https://www.data-terra.org/donnees-services/acces-rapide/)
+- [Lands Surfaces Expertises](https://www.theia-land.fr/en/theia-scientific-expertise-fields/)
 
-![](images/image-logo-dataterra2025.jpg){width=50%}
+- [Lands Surfaces GitLab](https://gitlab.in2p3.fr/theia/theia-product-ressources)
+
+![](images/image-logo-dataterra2025.jpg){width=75%}
 ![](images/image-logo-pndb.jpg){width=25%}
-![](images/image-logo-theia.png){width=25%}
+![](images/image-logo-theia.png){width=40%}
+
 :::
 
 ::: {.column width=25%}
