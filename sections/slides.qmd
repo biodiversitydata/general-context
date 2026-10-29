@@ -1093,7 +1093,17 @@ Here's some documents (*in French*) to support producers and reusers of biodiver
 
 ## A complex landscape
 
-![](images/image-fluxPNDB.png){width=100%}
+![](images/image-fluxPNDB.png){width=70%}
+
+> Services and recommendations for a high degree of FAIRness throughout the data life cycle (e.g., minimum metadata, data repositories workflow, processing, computation, trainings, etc.)
+
+[Norvez _et al._, (2025)](https://hal.science/DATA-TERRA/hal-05552026v1) & [Norvez _et al._, (2026)](https://hal.science/DATA-TERRA/hal-05742498v1)
+
+<!-- xxx page -->
+
+## A complex landscape
+
+![](images/image-logigrammePNDB.png){width=70%}
 
 > Services and recommendations for a high degree of FAIRness throughout the data life cycle (e.g., minimum metadata, data repositories workflow, processing, computation, trainings, etc.)
 
