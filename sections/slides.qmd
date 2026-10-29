@@ -1087,16 +1087,14 @@ Here's some documents (*in French*) to support producers and reusers of biodiver
 
 ::::
 
-> Services and recommendations throughout the data life cycle (e.g. *who's who*, minimum metadata, data repositories workflow, processing, computation, trainings, etc.)
-
-*Nota Bene* : The targets of these documents are mainly researchers, managers, engineers and data technicians
+> Services and recommendations throughout the data life cycle (e.g. *who's who*, minimum metadata, data repositories workflow, processing, computation, trainings, etc.) . *Nota Bene* : The targets of these documents are mainly researchers, managers, engineers and data technicians
 
 <!-- xxx page -->
 
 
 ## A complex landscape
 
-![](images/image-fluxPNDB.png){width=100%}
+![](images/image-fluxPNDB.png){width=80%}
 
 From [Norvez _et al._, (2025)](https://hal.science/DATA-TERRA/hal-05552026v1) & [Norvez _et al._, (2026)](https://hal.science/DATA-TERRA/hal-05742498v1)
 
@@ -1104,7 +1102,7 @@ From [Norvez _et al._, (2025)](https://hal.science/DATA-TERRA/hal-05552026v1) & 
 
 ## A complex landscape
 
-![](images/image-logigrammePNDB.png){width=100%}
+![](images/image-logigrammePNDB.png){width=80%}
 
 From [Norvez _et al._, (2025)](https://hal.science/DATA-TERRA/hal-05552026v1) & [Norvez _et al._, (2026)](https://hal.science/DATA-TERRA/hal-05742498v1)
 
