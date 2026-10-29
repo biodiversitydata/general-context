@@ -63,13 +63,13 @@ Nicolas Casajus<br/>
 ::: {.column .affiliation width="32%"}
 Animation coordinator
 <br/>
-<code>@PNDB</code>
-&nbsp;
-[{{< fa globe >}}](https://www.pndb.fr/)
-<br/>
 <code>@DataTerra</code>
 &nbsp;
 [{{< fa globe >}}](https://www.data-terra.org/)
+<br/>
+<code>@PNDB</code>
+&nbsp;
+[{{< fa globe >}}](https://www.pndb.fr/)
 <br/>
 <code>@Theia</code>
 &nbsp;
