@@ -1061,7 +1061,6 @@ Here's some documents (*in French*) to support producers and reusers of biodiver
 - Sharing (meta)data (where to deposit them, what types of data, etc.)
 - Using the latter via information systems according to the themes and/or target audiences
 
-> Services and recommendations throughout the data life cycle (e.g. *who's who*, minimum metadata, data repositories workflow, processing, computation, trainings, etc.)
 <br/>
 
 :::
@@ -1088,7 +1087,9 @@ Here's some documents (*in French*) to support producers and reusers of biodiver
 
 ::::
 
-***Nota Bene* : The targets of these documents are mainly researchers, managers, engineers and data technicians**
+> Services and recommendations throughout the data life cycle (e.g. *who's who*, minimum metadata, data repositories workflow, processing, computation, trainings, etc.)
+
+*Nota Bene* : The targets of these documents are mainly researchers, managers, engineers and data technicians
 
 <!-- xxx page -->
 
