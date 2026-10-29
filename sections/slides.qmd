@@ -685,25 +685,27 @@ The data lifecycle is the set of stages of management, conservation and dissemin
 
 ## CARE principles
 
-#### **Definitions**
+**Definition**
 
 :::: {.columns}
-::: {.column width=70%}
->Indigenous data are data, information, and knowledge, in any format, that impact Indigenous Peoples, nations, and communities at the collective and individual levels; data about their resources and environments, data about them as Individuals, and data about them as collectives[^Carroll].<br>
-:::
-::: {.column .center width=30%}
-![](images/image-logo-GIDA.png){width=100%}
-:::
-::::
+::: {.column width=65%}
+>Indigenous data are data, information, and knowledge, in any format, that impact Indigenous Peoples, nations, and communities at the collective and individual levels; data about their resources and environments, data about them as Individuals, and data about them as collectives[^Carroll1],[^Carroll2].<br>
 
-#### **to go further**
+**to go further**
 
 - [GIDA : Global Indigenous Data Alliance](https://www.gida-global.org/) 
 - [GBIF : Global Biodiversity Information Facility *Open data for people and purpose: GBIF establishes task group on Indigenous data governance*](https://www.gbif.org/news/1Ke3Gk2USgdIW5OgDlBIKY/open-data-for-people-and-purpose-gbif-establishes-task-group-on-indigenous-data-governance) 
 - [GEO : Group on Earth Observation](https://earthobservations.org/groups/geo-indigenous-alliance) 
 - [DoraNum](https://doranum.fr/aspects-juridiques-ethiques/les-principes-care_10_13143_af7s-g015/)
+:::
+::: {.column .center width=35%}
+![](images/image-care.png){width=100%}
+Source: [Carroll _et al._ (2020)](https://doi.org/10.5334/dsj-2020-043)
+:::
+::::
 
-[^Carroll]: [Carroll _et al._ (2021)](https://doi.org/10.1038/s41597-021-00892-0)
+[^Carroll1]: [Carroll _et al._ (2020)](https://doi.org/10.5334/dsj-2020-043)
+[^Carroll2]: [Carroll _et al._ (2021)](https://doi.org/10.1038/s41597-021-00892-0)
 
 <!-- page -->
 
