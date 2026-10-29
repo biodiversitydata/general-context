@@ -986,9 +986,9 @@ It is recommended to prioritize deposits in **trusted thematic repositories** (e
 :::
 
 ::: {.column .center width=33%}
-![](images/image-logigrammeFluxSI.png){width=90%}
+![](images/image-logigrammePNDB.png){width=90%}
 
-[[Norvez *et al.*(2024)]{.citation}](https://mnhn.hal.science/mnhn-04296424/)
+[[Norvez *et al.*(2026)]{.citation}](https://hal.science/DATA-TERRA/hal-05742498v1)
 :::
 
 ::: {.column .center width=33%}
@@ -1093,17 +1093,11 @@ Here's some documents (*in French*) to support producers and reusers of biodiver
 
 ## A complex landscape
 
-:::: {.columns}
-::: {.column width=50%}
-![](images/image-fluxTHEIA.png){width=100%}
-[Norvez _et al._, (2025)](https://hal.science/DATA-TERRA/hal-05552026v1)
-
-:::
-
-::: {.column width=50%}
 ![](images/image-fluxPNDB.png){width=100%}
-[Norvez _et al._, (2026)](https://hal.science/DATA-TERRA/hal-05742498v1)
-:::
+
+> Services and recommendations for a high degree of FAIRness throughout the data life cycle (e.g., minimum metadata, data repositories workflow, processing, computation, trainings, etc.)
+
+[Norvez _et al._, (2025)](https://hal.science/DATA-TERRA/hal-05552026v1) & [Norvez _et al._, (2026)](https://hal.science/DATA-TERRA/hal-05742498v1)
 
 <!-- xxx page -->
 
