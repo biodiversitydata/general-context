@@ -109,6 +109,8 @@ EOSC will also improve the situation for researchers in many ways, namely by :
 ![](images/logo-PNSO2.png){width=60%}
 :::
 ::: {.column width=60%}
+<br><br><br>
+
 **1.** Generalize open access to publications<br>
 **2.** Structure, share and open research data<br>
 **3.** Open and promote source codes produced by research<br>
